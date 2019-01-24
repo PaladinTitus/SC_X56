@@ -1,4 +1,4 @@
-<!-- 24.01.2019 21:19:41 - SC Joystick Mapping - layout_my_joystick -->
+<!-- 24.01.2019 23:30:22 - SC Joystick Mapping - layout_my_joystick -->
 <ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="my_joystick" 
 	js1="Saitek Pro Flight X-56 Rhino Stick" js1G="61c85280-1733-11e9-8001-444553540000" 
 	js2="Saitek Pro Flight X-56 Rhino Throttle" js2G="62423d70-1733-11e9-8003-444553540000" 
@@ -37,6 +37,9 @@
 		</action>
 		<action name="v_eject">
 			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_eject_cinematic">
+			<rebind input="js1_rctrl+button6"   />
 		</action>
 		<action name="v_eject_cinematic">
 			<rebind input="kb1_l"   />
@@ -143,6 +146,9 @@
 			<rebind input="kb1_ " multiTap="1"  />
 		</action>
 		<action name="v_view_yaw">
+			<rebind input="js1_x"   />
+		</action>
+		<action name="v_view_yaw">
 			<rebind input="xi1_thumbrx"   />
 		</action>
 		<action name="v_view_yaw_mouse">
@@ -162,6 +168,9 @@
 		</action>
 		<action name="v_view_pitch_down">
 			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_pitch">
+			<rebind input="js1_y"   />
 		</action>
 		<action name="v_view_pitch">
 			<rebind input="xi1_thumbry"   />
@@ -469,10 +478,16 @@
 			<rebind input="xi1_ " multiTap="1"  />
 		</action>
 		<action name="v_strafe_up">
+			<rebind input="js1_button9"   />
+		</action>
+		<action name="v_strafe_up">
 			<rebind input="kb1_space"   />
 		</action>
 		<action name="v_strafe_up">
 			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_strafe_down">
+			<rebind input="js1_button10"   />
 		</action>
 		<action name="v_strafe_down">
 			<rebind input="kb1_lctrl"   />
@@ -487,10 +502,16 @@
 			<rebind input="xi1_shoulderl+thumbry"   />
 		</action>
 		<action name="v_strafe_left">
+			<rebind input="js1_hat1_left"   />
+		</action>
+		<action name="v_strafe_left">
 			<rebind input="kb1_a"   />
 		</action>
 		<action name="v_strafe_left">
 			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_strafe_right">
+			<rebind input="js1_hat1_right"   />
 		</action>
 		<action name="v_strafe_right">
 			<rebind input="kb1_d"   />
@@ -505,10 +526,16 @@
 			<rebind input="xi1_shoulderl+thumbrx"   />
 		</action>
 		<action name="v_strafe_forward">
+			<rebind input="js1_hat1_up"   />
+		</action>
+		<action name="v_strafe_forward">
 			<rebind input="kb1_2"   />
 		</action>
 		<action name="v_strafe_forward">
 			<rebind input="xi1_shoulderl+triggerr_btn"   />
+		</action>
+		<action name="v_strafe_back">
+			<rebind input="js1_hat1_down"   />
 		</action>
 		<action name="v_strafe_back">
 			<rebind input="kb1_3"   />
@@ -1072,10 +1099,16 @@
 	</actionmap>
 	<actionmap name="spaceship_ping">
 		<action name="v_inc_ping_focus_angle">
+			<rebind input="js1_button3"   />
+		</action>
+		<action name="v_inc_ping_focus_angle">
 			<rebind input="kb1_c"   />
 		</action>
 		<action name="v_inc_ping_focus_angle">
 			<rebind input="xi1_x"   />
+		</action>
+		<action name="v_dec_ping_focus_angle">
+			<rebind input="js1_button4"   />
 		</action>
 		<action name="v_dec_ping_focus_angle">
 			<rebind input="kb1_v"   />
@@ -1104,10 +1137,16 @@
 			<rebind input="xi1_thumbr"   />
 		</action>
 		<action name="v_increase_mining_throttle">
+			<rebind input="js1_button3"   />
+		</action>
+		<action name="v_increase_mining_throttle">
 			<rebind input="kb1_mwheel_up"   />
 		</action>
 		<action name="v_increase_mining_throttle">
 			<rebind input="xi1_x"   />
+		</action>
+		<action name="v_decrease_mining_throttle">
+			<rebind input="js1_button4"   />
 		</action>
 		<action name="v_decrease_mining_throttle">
 			<rebind input="kb1_mwheel_down"   />
@@ -1282,7 +1321,7 @@
 			<rebind input="xi1_shoulderr"   />
 		</action>
 		<action name="v_attack1_group2">
-			<rebind input="js1_button2"   />
+			<rebind input="js1_button5"   />
 		</action>
 		<action name="v_attack1_group2">
 			<rebind input="mo1_mouse2"   />
@@ -1347,6 +1386,9 @@
 		</action>
 		<action name="v_weapon_launch_countermeasure">
 			<rebind input="xi1_b"   />
+		</action>
+		<action name="v_weapon_launch_countermeasure_cinematic">
+			<rebind input="js1_button3"   />
 		</action>
 		<action name="v_weapon_launch_countermeasure_cinematic">
 			<rebind input="kb1_c"   />
@@ -2827,10 +2869,16 @@
 			<rebind input="xi1_triggerr_btn"   />
 		</action>
 		<action name="pc_focus">
+			<rebind input="js1_button7"   />
+		</action>
+		<action name="pc_focus">
 			<rebind input="mo1_mouse3"   />
 		</action>
 		<action name="pc_focus">
 			<rebind input="xi1_triggerl_btn"   />
+		</action>
+		<action name="pc_throw_decrease">
+			<rebind input="js1_button7"   />
 		</action>
 		<action name="pc_throw_decrease">
 			<rebind input="mo1_mouse2"   />
