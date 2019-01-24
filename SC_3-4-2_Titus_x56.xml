@@ -1,0 +1,3102 @@
+<!-- 24.01.2019 21:19:41 - SC Joystick Mapping - layout_my_joystick -->
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="my_joystick" 
+	js1="Saitek Pro Flight X-56 Rhino Stick" js1G="61c85280-1733-11e9-8001-444553540000" 
+	js2="Saitek Pro Flight X-56 Rhino Throttle" js2G="62423d70-1733-11e9-8003-444553540000" 
+>
+	<CustomisationUIHeader label="my_joystick" description="" image="">
+		<devices>
+			<keyboard instance="1"/>
+			<mouse instance="1"/>
+			<joystick instance="1"/>
+			<joystick instance="2"/>
+		</devices>
+		<categories>
+		<category label="@ui_CCSpaceFlight"/>
+		</categories>
+	</CustomisationUIHeader>
+
+	<options type="joystick" instance="1">
+		<flight_move_strafe_longitudinal invert="1"  /> 
+	</options>
+ 
+	<options type="joystick" instance="2">
+		<flight_move_strafe_vertical invert="1"  /> 
+	</options>
+ 
+	<options type="joystick" instance="2">
+		<mining_throttle invert="1"  /> 
+	</options>
+ 
+
+	<actionmap name="spaceship_general">
+		<action name="v_eject">
+			<rebind input="js2_button18"  ActivationMode="double_tap" multiTap = "2"  />
+		</action>
+		<action name="v_eject">
+			<rebind input="kb1_l"   />
+		</action>
+		<action name="v_eject">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_eject_cinematic">
+			<rebind input="kb1_l"   />
+		</action>
+		<action name="v_eject_cinematic">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_exit">
+			<rebind input="js2_button19"   />
+		</action>
+		<action name="v_exit">
+			<rebind input="kb1_h"   />
+		</action>
+		<action name="v_exit">
+			<rebind input="xi1_shoulderl+y"   />
+		</action>
+		<action name="v_self_destruct">
+			<rebind input="js2_button18"  ActivationMode="delayed_hold_no_retrigger" multiTap = "1"  />
+		</action>
+		<action name="v_self_destruct">
+			<rebind input="kb1_backspace"   />
+		</action>
+		<action name="v_self_destruct">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_cooler_throttle_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_cooler_throttle_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_cooler_throttle_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_cooler_throttle_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_cooler_throttle_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_cooler_throttle_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_enterpuremode">
+			<rebind input="kb1_rctrl+insert"   />
+		</action>
+		<action name="v_flightready">
+			<rebind input="js2_button16"   />
+		</action>
+		<action name="v_flightready">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_flightready">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_open_all">
+			<rebind input="js2_button14"   />
+		</action>
+		<action name="v_doors_open_all">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_open_all">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_close_all">
+			<rebind input="js2_button14"  ActivationMode="delayed_hold_no_retrigger" multiTap = "1"  />
+		</action>
+		<action name="v_doors_close_all">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_close_all">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_lock_all">
+			<rebind input="js2_button15"   />
+		</action>
+		<action name="v_doors_lock_all">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_lock_all">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_unlock_all">
+			<rebind input="js2_button15"  ActivationMode="delayed_hold_no_retrigger" multiTap = "1"  />
+		</action>
+		<action name="v_doors_unlock_all">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_unlock_all">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_view">
+		<action name="v_view_yaw_left">
+			<rebind input="js1_hat1_left"   />
+		</action>
+		<action name="v_view_yaw_left">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_yaw_right">
+			<rebind input="js1_hat1_right"   />
+		</action>
+		<action name="v_view_yaw_right">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_yaw">
+			<rebind input="xi1_thumbrx"   />
+		</action>
+		<action name="v_view_yaw_mouse">
+			<rebind input="mo1_maxis_x"   />
+		</action>
+		<action name="v_view_yaw_absolute">
+			<rebind input="kb1_HMD_Yaw"   />
+		</action>
+		<action name="v_view_pitch_up">
+			<rebind input="js1_hat1_up"   />
+		</action>
+		<action name="v_view_pitch_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_pitch_down">
+			<rebind input="js1_hat1_down"   />
+		</action>
+		<action name="v_view_pitch_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_pitch">
+			<rebind input="xi1_thumbry"   />
+		</action>
+		<action name="v_view_pitch_mouse">
+			<rebind input="mo1_maxis_y"   />
+		</action>
+		<action name="v_view_pitch_absolute">
+			<rebind input="kb1_HMD_Pitch"   />
+		</action>
+		<action name="v_view_roll_absolute">
+			<rebind input="kb1_HMD_Roll"   />
+		</action>
+		<action name="v_view_cycle_fwd">
+			<rebind input="js2_button2"   />
+		</action>
+		<action name="v_view_cycle_fwd">
+			<rebind input="kb1_f4"   />
+		</action>
+		<action name="v_view_cycle_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_cycle_internal_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_cycle_internal_fwd">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_cycle_internal_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_option">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_option">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_option">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_mode">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_mode">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_mode">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_zoom_in">
+			<rebind input="js2_button30"   />
+		</action>
+		<action name="v_view_zoom_in">
+			<rebind input="kb1_mwheel_up"   />
+		</action>
+		<action name="v_view_zoom_in">
+			<rebind input="mo1_mwheel_up"   />
+		</action>
+		<action name="v_view_zoom_in">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_zoom_out">
+			<rebind input="js2_button31"   />
+		</action>
+		<action name="v_view_zoom_out">
+			<rebind input="kb1_mwheel_down"   />
+		</action>
+		<action name="v_view_zoom_out">
+			<rebind input="mo1_mwheel_down"   />
+		</action>
+		<action name="v_view_zoom_out">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_interact">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_interact">
+			<rebind input="kb1_f"   />
+		</action>
+		<action name="v_view_interact">
+			<rebind input="xi1_triggerr_btn"   />
+		</action>
+		<action name="v_view_freelook_mode">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_freelook_mode">
+			<rebind input="kb1_z"   />
+		</action>
+		<action name="v_view_freelook_mode">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_dynamic_focus">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_dynamic_focus">
+			<rebind input="kb1_maxis_z"   />
+		</action>
+		<action name="v_view_dynamic_focus">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_dynamic_focus_in">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_dynamic_focus_in">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_dynamic_focus_in">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_dynamic_focus_out">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_dynamic_focus_out">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_dynamic_focus_out">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_look_behind">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_look_behind">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_look_behind">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_movement">
+		<action name="v_pitch_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_pitch_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_pitch_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_pitch_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_pitch_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_pitch_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_pitch">
+			<rebind input="js1_y"   />
+		</action>
+		<action name="v_pitch">
+			<rebind input="xi1_thumbly"   />
+		</action>
+		<action name="v_pitch_mouse">
+			<rebind input="mo1_maxis_y"   />
+		</action>
+		<action name="v_yaw_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_yaw_left">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_yaw_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_yaw_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_yaw_right">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_yaw_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_yaw">
+			<rebind input="js1_x"   />
+		</action>
+		<action name="v_yaw">
+			<rebind input="xi1_thumblx"   />
+		</action>
+		<action name="v_yaw_mouse">
+			<rebind input="mo1_maxis_x"   />
+		</action>
+		<action name="v_toggle_relative_mouse_mode">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_roll_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_roll_left">
+			<rebind input="kb1_q"   />
+		</action>
+		<action name="v_roll_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_roll_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_roll_right">
+			<rebind input="kb1_e"   />
+		</action>
+		<action name="v_roll_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_roll">
+			<rebind input="js1_rotz"   />
+		</action>
+		<action name="v_roll">
+			<rebind input="xi1_shoulderl+thumblx"   />
+		</action>
+		<action name="v_roll_mouse">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_yaw_roll_swap">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_yaw_roll_swap">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_yaw_roll_swap">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_toggle_minmax">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_toggle_minmax">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_toggle_minmax">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_zero">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_zero">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_zero">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_100">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_100">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_100">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_up">
+			<rebind input="kb1_w"   />
+		</action>
+		<action name="v_throttle_up">
+			<rebind input="xi1_triggerr_btn"   />
+		</action>
+		<action name="v_throttle_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_down">
+			<rebind input="kb1_s"   />
+		</action>
+		<action name="v_throttle_down">
+			<rebind input="xi1_triggerl_btn"   />
+		</action>
+		<action name="v_throttle_abs">
+			<rebind input="js2_y"   />
+		</action>
+		<action name="v_throttle_rel">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_rel">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_throttle_rel">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_brake">
+			<rebind input="js2_button29"   />
+		</action>
+		<action name="v_brake">
+			<rebind input="kb1_capslock"   />
+		</action>
+		<action name="v_brake">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_match_vel">
+			<rebind input="js2_button28"   />
+		</action>
+		<action name="v_target_match_vel">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_match_vel">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_vector_decoupling">
+			<rebind input="js2_button33"  ActivationMode="hold" multiTap = "1"  />
+		</action>
+		<action name="v_ifcs_toggle_vector_decoupling">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_vector_decoupling">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_strafe_up">
+			<rebind input="kb1_space"   />
+		</action>
+		<action name="v_strafe_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_strafe_down">
+			<rebind input="kb1_lctrl"   />
+		</action>
+		<action name="v_strafe_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_strafe_vertical">
+			<rebind input="js2_roty"   />
+		</action>
+		<action name="v_strafe_vertical">
+			<rebind input="xi1_shoulderl+thumbry"   />
+		</action>
+		<action name="v_strafe_left">
+			<rebind input="kb1_a"   />
+		</action>
+		<action name="v_strafe_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_strafe_right">
+			<rebind input="kb1_d"   />
+		</action>
+		<action name="v_strafe_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_strafe_lateral">
+			<rebind input="js2_rotx"   />
+		</action>
+		<action name="v_strafe_lateral">
+			<rebind input="xi1_shoulderl+thumbrx"   />
+		</action>
+		<action name="v_strafe_forward">
+			<rebind input="kb1_2"   />
+		</action>
+		<action name="v_strafe_forward">
+			<rebind input="xi1_shoulderl+triggerr_btn"   />
+		</action>
+		<action name="v_strafe_back">
+			<rebind input="kb1_3"   />
+		</action>
+		<action name="v_strafe_back">
+			<rebind input="xi1_shoulderl+triggerl_btn"   />
+		</action>
+		<action name="v_strafe_longitudinal">
+			<rebind input="js1_roty"   />
+		</action>
+		<action name="v_strafe_longitudinal">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_safeties">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_safeties">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_safeties">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_gforce_safety">
+			<rebind input="js2_button6"   />
+		</action>
+		<action name="v_ifcs_toggle_gforce_safety">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_gforce_safety">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_comstab">
+			<rebind input="js2_button8"   />
+		</action>
+		<action name="v_ifcs_toggle_comstab">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_comstab">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_esp">
+			<rebind input="js2_button7"   />
+		</action>
+		<action name="v_ifcs_toggle_esp">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_ifcs_toggle_esp">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_brake">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_brake">
+			<rebind input="kb1_capslock"   />
+		</action>
+		<action name="v_decoupled_brake">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_up">
+			<rebind input="kb1_space"   />
+		</action>
+		<action name="v_decoupled_strafe_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_down">
+			<rebind input="kb1_lctrl"   />
+		</action>
+		<action name="v_decoupled_strafe_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_vertical">
+			<rebind input="js2_roty"   />
+		</action>
+		<action name="v_decoupled_strafe_vertical">
+			<rebind input="xi1_shoulderl+thumbry"   />
+		</action>
+		<action name="v_decoupled_strafe_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_left">
+			<rebind input="kb1_a"   />
+		</action>
+		<action name="v_decoupled_strafe_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_right">
+			<rebind input="kb1_d"   />
+		</action>
+		<action name="v_decoupled_strafe_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_lateral">
+			<rebind input="js2_rotx"   />
+		</action>
+		<action name="v_decoupled_strafe_lateral">
+			<rebind input="xi1_shoulderl+thumblx"   />
+		</action>
+		<action name="v_decoupled_strafe_forward">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_forward">
+			<rebind input="kb1_w"   />
+		</action>
+		<action name="v_decoupled_strafe_forward">
+			<rebind input="xi1_shoulderl+triggerr_btn"   />
+		</action>
+		<action name="v_decoupled_strafe_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_strafe_back">
+			<rebind input="kb1_s"   />
+		</action>
+		<action name="v_decoupled_strafe_back">
+			<rebind input="xi1_shoulderl+triggerl_btn"   />
+		</action>
+		<action name="v_decoupled_strafe_longitudinal">
+			<rebind input="js1_roty"   />
+		</action>
+		<action name="v_decoupled_strafe_longitudinal">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_yaw">
+			<rebind input="js1_x"   />
+		</action>
+		<action name="v_decoupled_yaw">
+			<rebind input="xi1_thumblx"   />
+		</action>
+		<action name="v_decoupled_yaw_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_yaw_left">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_yaw_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_yaw_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_yaw_right">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_yaw_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_pitch">
+			<rebind input="js1_y"   />
+		</action>
+		<action name="v_decoupled_pitch">
+			<rebind input="xi1_thumbly"   />
+		</action>
+		<action name="v_decoupled_pitch_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_pitch_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_pitch_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_pitch_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_pitch_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_pitch_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_roll_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_roll_left">
+			<rebind input="kb1_q"   />
+		</action>
+		<action name="v_decoupled_roll_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_roll_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_roll_right">
+			<rebind input="kb1_e"   />
+		</action>
+		<action name="v_decoupled_roll_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_decoupled_roll">
+			<rebind input="js1_rotz"   />
+		</action>
+		<action name="v_decoupled_roll">
+			<rebind input="xi1_shoulderl+thumblx"   />
+		</action>
+		<action name="v_afterburner">
+			<rebind input="js2_button5"   />
+		</action>
+		<action name="v_afterburner">
+			<rebind input="kb1_lshift"   />
+		</action>
+		<action name="v_afterburner">
+			<rebind input="xi1_a"   />
+		</action>
+		<action name="v_boost">
+			<rebind input="js2_button4"   />
+		</action>
+		<action name="v_boost">
+			<rebind input="kb1_x"   />
+		</action>
+		<action name="v_boost">
+			<rebind input="xi1_thumbl"   />
+		</action>
+		<action name="v_toggle_landing_system">
+			<rebind input="js2_button13"   />
+		</action>
+		<action name="v_toggle_landing_system">
+			<rebind input="kb1_n"   />
+		</action>
+		<action name="v_toggle_landing_system">
+			<rebind input="xi1_shoulderl+dpad_up"   />
+		</action>
+		<action name="v_autoland">
+			<rebind input="js2_button13"  ActivationMode="delayed_hold_no_retrigger" multiTap = "1"  />
+		</action>
+		<action name="v_autoland">
+			<rebind input="kb1_n"   />
+		</action>
+		<action name="v_autoland">
+			<rebind input="xi1_shoulderl+dpad_up"   />
+		</action>
+		<action name="v_toggle_qdrive_spooling">
+			<rebind input="js2_button12"   />
+		</action>
+		<action name="v_toggle_qdrive_spooling">
+			<rebind input="kb1_b"   />
+		</action>
+		<action name="v_toggle_qdrive_spooling">
+			<rebind input="xi1_shoulderl+dpad_right"   />
+		</action>
+		<action name="v_toggle_qdrive_engagement">
+			<rebind input="js2_button12"  ActivationMode="delayed_press" multiTap = "1"  />
+		</action>
+		<action name="v_toggle_qdrive_engagement">
+			<rebind input="kb1_b"   />
+		</action>
+		<action name="v_toggle_qdrive_engagement">
+			<rebind input="xi1_shoulderl+dpad_right"   />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_docking">
+		<action name="v_toggle_docking_mode">
+			<rebind input="js2_button12"   />
+		</action>
+		<action name="v_toggle_docking_mode">
+			<rebind input="kb1_n"   />
+		</action>
+		<action name="v_toggle_docking_mode">
+			<rebind input="xi1_shoulderl+dpad_up"   />
+		</action>
+		<action name="v_invoke_docking">
+			<rebind input="js2_button12"  ActivationMode="delayed_hold_no_retrigger" multiTap = "1"  />
+		</action>
+		<action name="v_invoke_docking">
+			<rebind input="kb1_n"   />
+		</action>
+		<action name="v_invoke_docking">
+			<rebind input="xi1_y"   />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_targeting">
+		<action name="v_aim_yaw">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw">
+			<rebind input="xi1_thumbrx"   />
+		</action>
+		<action name="v_aim_yaw_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_left">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_right">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch">
+			<rebind input="xi1_thumbry"   />
+		</action>
+		<action name="v_aim_pitch_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_mouse">
+			<rebind input="mo1_maxis_x"   />
+		</action>
+		<action name="v_aim_pitch_mouse">
+			<rebind input="mo1_maxis_y"   />
+		</action>
+		<action name="v_aim_snap">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_snap">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_couple_aim_to_move">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_couple_aim_to_move">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_couple_aim_to_move">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_mouse_aim_only">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_weapon_gimbal_lock">
+			<rebind input="js2_button9"   />
+		</action>
+		<action name="v_toggle_weapon_gimbal_lock">
+			<rebind input="kb1_j"   />
+		</action>
+		<action name="v_toggle_weapon_gimbal_lock">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_toggle_computer_onoff">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_toggle_computer_onoff">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_toggle_computer_onoff">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_reticle_focus">
+			<rebind input="js1_button11"   />
+		</action>
+		<action name="v_target_reticle_focus">
+			<rebind input="kb1_r"   />
+		</action>
+		<action name="v_target_reticle_focus">
+			<rebind input="xi1_dpad_left"   />
+		</action>
+		<action name="v_target_cycle_all_fwd">
+			<rebind input="js1_button8"   />
+		</action>
+		<action name="v_target_cycle_all_fwd">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_all_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_all_back">
+			<rebind input="js1_button10"   />
+		</action>
+		<action name="v_target_cycle_all_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_all_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_friendly_fwd">
+			<rebind input="js1_button7"   />
+		</action>
+		<action name="v_target_cycle_friendly_fwd">
+			<rebind input="kb1_u"   />
+		</action>
+		<action name="v_target_cycle_friendly_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_friendly_back">
+			<rebind input="js1_button9"   />
+		</action>
+		<action name="v_target_cycle_friendly_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_friendly_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_toggle_pinned_focused">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_toggle_pinned_focused">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_toggle_pinned_focused">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_pinned_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_pinned_fwd">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_pinned_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_pinned_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_pinned_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_pinned_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_hostile_fwd">
+			<rebind input="js1_button12"   />
+		</action>
+		<action name="v_target_cycle_hostile_fwd">
+			<rebind input="kb1_y"   />
+		</action>
+		<action name="v_target_cycle_hostile_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_hostile_back">
+			<rebind input="js1_button14"   />
+		</action>
+		<action name="v_target_cycle_hostile_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_hostile_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_nearest_hostile">
+			<rebind input="js1_button13"   />
+		</action>
+		<action name="v_target_nearest_hostile">
+			<rebind input="kb1_t"   />
+		</action>
+		<action name="v_target_nearest_hostile">
+			<rebind input="xi1_dpad_right"   />
+		</action>
+		<action name="v_target_cycle_subitem_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_subitem_fwd">
+			<rebind input="kb1_i"   />
+		</action>
+		<action name="v_target_cycle_subitem_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_subitem_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_subitem_back">
+			<rebind input="kb1_o"   />
+		</action>
+		<action name="v_target_cycle_subitem_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_focus_root_entity">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_focus_root_entity">
+			<rebind input="kb1_p"   />
+		</action>
+		<action name="v_target_focus_root_entity">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_reticle_mode">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_reticle_mode">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_reticle_mode">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_head_tracking">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_head_tracking">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_head_tracking">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_trigger_scan">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_component_fwd">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_component_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_component_group_fwd">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_component_group_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_deselect_component">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_mining_mode">
+			<rebind input="js2_button10"   />
+		</action>
+		<action name="v_toggle_mining_mode">
+			<rebind input="kb1_m"   />
+		</action>
+		<action name="v_toggle_mining_mode">
+			<rebind input="xi1_shoulderl+thumbr"   />
+		</action>
+		<action name="v_toggle_scan_mode">
+			<rebind input="js2_button11"   />
+		</action>
+		<action name="v_toggle_scan_mode">
+			<rebind input="kb1_tab"   />
+		</action>
+		<action name="v_toggle_scan_mode">
+			<rebind input="xi1_dpad_up"   />
+		</action>
+		<action name="v_invoke_ping">
+			<rebind input="js1_button1"   />
+		</action>
+		<action name="v_invoke_ping">
+			<rebind input="mo1_mouse1"   />
+		</action>
+		<action name="v_invoke_ping">
+			<rebind input="xi1_shoulderr"   />
+		</action>
+		<action name="v_target_reticle_scan_target">
+			<rebind input="mo1_mouse1"   />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_ping">
+		<action name="v_inc_ping_focus_angle">
+			<rebind input="kb1_c"   />
+		</action>
+		<action name="v_inc_ping_focus_angle">
+			<rebind input="xi1_x"   />
+		</action>
+		<action name="v_dec_ping_focus_angle">
+			<rebind input="kb1_v"   />
+		</action>
+		<action name="v_dec_ping_focus_angle">
+			<rebind input="xi1_b"   />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_mining">
+		<action name="v_toggle_mining_laser_fire">
+			<rebind input="js1_button1"   />
+		</action>
+		<action name="v_toggle_mining_laser_fire">
+			<rebind input="mo1_mouse1"   />
+		</action>
+		<action name="v_toggle_mining_laser_fire">
+			<rebind input="xi1_shoulderr"   />
+		</action>
+		<action name="v_toggle_mining_laser_type">
+			<rebind input="js1_button5"   />
+		</action>
+		<action name="v_toggle_mining_laser_type">
+			<rebind input="mo1_mouse2"   />
+		</action>
+		<action name="v_toggle_mining_laser_type">
+			<rebind input="xi1_thumbr"   />
+		</action>
+		<action name="v_increase_mining_throttle">
+			<rebind input="kb1_mwheel_up"   />
+		</action>
+		<action name="v_increase_mining_throttle">
+			<rebind input="xi1_x"   />
+		</action>
+		<action name="v_decrease_mining_throttle">
+			<rebind input="kb1_mwheel_down"   />
+		</action>
+		<action name="v_decrease_mining_throttle">
+			<rebind input="xi1_b"   />
+		</action>
+		<action name="v_mining_throttle">
+			<rebind input="js2_slider2"   />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_turret">
+		<action name="v_toggle_weapon_gimbal_lock">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_weapon_gimbal_lock">
+			<rebind input="kb1_lctrl+g"   />
+		</action>
+		<action name="v_toggle_weapon_gimbal_lock">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw">
+			<rebind input="js1_x"   />
+		</action>
+		<action name="v_aim_yaw">
+			<rebind input="xi1_thumbrx"   />
+		</action>
+		<action name="v_aim_yaw_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_left">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_right">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch">
+			<rebind input="js1_y"   />
+		</action>
+		<action name="v_aim_pitch">
+			<rebind input="xi1_thumbry"   />
+		</action>
+		<action name="v_aim_pitch_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_pitch_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_yaw_mouse">
+			<rebind input="mo1_maxis_x"   />
+		</action>
+		<action name="v_aim_pitch_mouse">
+			<rebind input="mo1_maxis_y"   />
+		</action>
+		<action name="v_aim_snap">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_aim_snap">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_reticle_focus">
+			<rebind input="js1_button11"   />
+		</action>
+		<action name="v_target_reticle_focus">
+			<rebind input="kb1_r"   />
+		</action>
+		<action name="v_target_reticle_focus">
+			<rebind input="xi1_dpad_left"   />
+		</action>
+		<action name="v_target_cycle_all_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_all_fwd">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_all_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_all_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_all_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_all_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_friendly_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_friendly_fwd">
+			<rebind input="kb1_u"   />
+		</action>
+		<action name="v_target_cycle_friendly_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_friendly_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_friendly_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_friendly_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_toggle_pinned_focused">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_toggle_pinned_focused">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_toggle_pinned_focused">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_hostile_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_hostile_fwd">
+			<rebind input="kb1_y"   />
+		</action>
+		<action name="v_target_cycle_hostile_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_hostile_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_hostile_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_cycle_hostile_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_nearest_hostile">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_target_nearest_hostile">
+			<rebind input="kb1_t"   />
+		</action>
+		<action name="v_target_nearest_hostile">
+			<rebind input="xi1_dpad_right"   />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_weapons">
+		<action name="v_attack1_group1">
+			<rebind input="js1_button1"   />
+		</action>
+		<action name="v_attack1_group1">
+			<rebind input="mo1_mouse1"   />
+		</action>
+		<action name="v_attack1_group1">
+			<rebind input="xi1_shoulderr"   />
+		</action>
+		<action name="v_attack1_group2">
+			<rebind input="js1_button2"   />
+		</action>
+		<action name="v_attack1_group2">
+			<rebind input="mo1_mouse2"   />
+		</action>
+		<action name="v_attack1_group2">
+			<rebind input="xi1_thumbr"   />
+		</action>
+		<action name="v_weapon_cycle_ammo_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_weapon_cycle_ammo_fwd">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_weapon_cycle_ammo_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_weapon_cycle_ammo_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_weapon_cycle_ammo_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_weapon_cycle_ammo_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_turret_gyromode">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_turret_gyromode">
+			<rebind input="kb1_g"   />
+		</action>
+		<action name="v_turret_gyromode">
+			<rebind input="xi1_a"   />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_missiles">
+		<action name="v_weapon_arm_missile">
+			<rebind input="js1_button2"   />
+		</action>
+		<action name="v_weapon_arm_missile">
+			<rebind input="mo1_mouse3"   />
+		</action>
+		<action name="v_weapon_arm_missile">
+			<rebind input="xi1_x"   />
+		</action>
+		<action name="v_weapon_launch_missile">
+			<rebind input="js1_button2"  ActivationMode="delayed_hold_no_retrigger" multiTap = "1"  />
+		</action>
+		<action name="v_weapon_launch_missile">
+			<rebind input="mo1_mouse3"   />
+		</action>
+		<action name="v_weapon_launch_missile">
+			<rebind input="xi1_x"   />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_defensive">
+		<action name="v_weapon_launch_countermeasure">
+			<rebind input="js1_button6"  ActivationMode="tap" multiTap = "1"  />
+		</action>
+		<action name="v_weapon_launch_countermeasure">
+			<rebind input="kb1_c"   />
+		</action>
+		<action name="v_weapon_launch_countermeasure">
+			<rebind input="xi1_b"   />
+		</action>
+		<action name="v_weapon_launch_countermeasure_cinematic">
+			<rebind input="kb1_c"   />
+		</action>
+		<action name="v_weapon_launch_countermeasure_cinematic">
+			<rebind input="xi1_b"   />
+		</action>
+		<action name="v_weapon_cycle_countermeasure_fwd">
+			<rebind input="js1_button6"  ActivationMode="delayed_press" multiTap = "1"  />
+		</action>
+		<action name="v_weapon_cycle_countermeasure_fwd">
+			<rebind input="kb1_v"   />
+		</action>
+		<action name="v_weapon_cycle_countermeasure_fwd">
+			<rebind input="xi1_dpad_down"   />
+		</action>
+		<action name="v_weapon_cycle_countermeasure_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_weapon_cycle_countermeasure_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_weapon_cycle_countermeasure_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_forward">
+			<rebind input="js2_button20"   />
+		</action>
+		<action name="v_shield_raise_level_forward">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_forward">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_back">
+			<rebind input="js2_button22"   />
+		</action>
+		<action name="v_shield_raise_level_back">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_left">
+			<rebind input="js2_button23"   />
+		</action>
+		<action name="v_shield_raise_level_left">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_right">
+			<rebind input="js2_button21"   />
+		</action>
+		<action name="v_shield_raise_level_right">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_raise_level_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_reset_level">
+			<rebind input="js2_button3"   />
+		</action>
+		<action name="v_shield_reset_level">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_shield_reset_level">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_auto_weapons">
+		<action name="v_weapon_toggle_ai">
+			<rebind input="kb1_slash"   />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_power">
+		<action name="v_power_focus_group_1">
+			<rebind input="js2_button27"   />
+		</action>
+		<action name="v_power_focus_group_1">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_focus_group_1">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_focus_group_2">
+			<rebind input="js2_button25"   />
+		</action>
+		<action name="v_power_focus_group_2">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_focus_group_2">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_focus_group_3">
+			<rebind input="js2_button26"   />
+		</action>
+		<action name="v_power_focus_group_3">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_focus_group_3">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_reset_focus">
+			<rebind input="js2_button24"   />
+		</action>
+		<action name="v_power_reset_focus">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_reset_focus">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_max">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_max">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_max">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_min">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_min">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_throttle_min">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle_group_1">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle_group_1">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle_group_1">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle_group_2">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle_group_2">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle_group_2">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle_group_3">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle_group_3">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle_group_3">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_power_toggle">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_radar">
+		<action name="v_radar_toggle_active_or_passive">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_radar_toggle_active_or_passive">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_radar_toggle_active_or_passive">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_radar_cycle_zoom_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_radar_cycle_zoom_fwd">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_radar_cycle_zoom_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="spaceship_hud">
+		<action name="mobiglas">
+			<rebind input="kb1_f1"   />
+		</action>
+		<action name="mobiglas">
+			<rebind input="xi1_back"   />
+		</action>
+		<action name="v_hud_open_scoreboard">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_open_scoreboard">
+			<rebind input="kb1_f1"   />
+		</action>
+		<action name="v_hud_open_scoreboard">
+			<rebind input="xi1_back"   />
+		</action>
+		<action name="v_hud_interact_toggle">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_interact_toggle">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_interact_toggle">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_focused_cycle_mode_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_focused_cycle_mode_fwd">
+			<rebind input="kb1_e"   />
+		</action>
+		<action name="v_hud_focused_cycle_mode_fwd">
+			<rebind input="xi1_triggerr_btn"   />
+		</action>
+		<action name="v_hud_focused_cycle_mode_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_focused_cycle_mode_back">
+			<rebind input="kb1_q"   />
+		</action>
+		<action name="v_hud_focused_cycle_mode_back">
+			<rebind input="xi1_triggerl_btn"   />
+		</action>
+		<action name="v_hud_left_panel_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_left">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_right">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_left_panel_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_confirm">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_confirm">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_confirm">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_cancel">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_cancel">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_cancel">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_stick_x">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_hud_stick_y">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_starmap">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_starmap">
+			<rebind input="kb1_f2"   />
+		</action>
+		<action name="v_starmap">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="lights_controller">
+		<action name="v_lights">
+			<rebind input="js1_button3"   />
+		</action>
+		<action name="v_lights">
+			<rebind input="kb1_5"   />
+		</action>
+		<action name="v_lights">
+			<rebind input="xi1_shoulderl+dpad_left"   />
+		</action>
+		<action name="v_toggle_running_lights">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_running_lights">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_running_lights">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_cabin_lights">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_cabin_lights">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_toggle_cabin_lights">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="prone">
+		<action name="prone_rollleft">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="prone_rollleft">
+			<rebind input="kb1_a"   />
+		</action>
+		<action name="prone_rollleft">
+			<rebind input="xi1_thumbl_left"   />
+		</action>
+		<action name="prone_rollright">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="prone_rollright">
+			<rebind input="kb1_d"   />
+		</action>
+		<action name="prone_rollright">
+			<rebind input="xi1_thumbl_right"   />
+		</action>
+	</actionmap>
+	<actionmap name="zero_gravity_eva">
+		<action name="eva_view_yaw_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_yaw_left">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_yaw_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_yaw_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_yaw_right">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_yaw_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_yaw">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_yaw">
+			<rebind input="xi1_thumbrx"   />
+		</action>
+		<action name="eva_view_yaw_mouse">
+			<rebind input="mo1_maxis_x"   />
+		</action>
+		<action name="eva_view_pitch_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_pitch_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_pitch_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_pitch_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_pitch_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_pitch">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_view_pitch">
+			<rebind input="xi1_thumbry"   />
+		</action>
+		<action name="eva_view_pitch_mouse">
+			<rebind input="mo1_maxis_y"   />
+		</action>
+		<action name="eva_pitch_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_pitch_up">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_pitch_up">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_pitch_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_pitch_down">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_pitch_down">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_pitch">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_pitch">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_yaw_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_yaw_left">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_yaw_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_yaw_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_yaw_right">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_yaw_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_yaw">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_yaw">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_roll_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_roll_left">
+			<rebind input="kb1_q"   />
+		</action>
+		<action name="eva_roll_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_roll_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_roll_right">
+			<rebind input="kb1_e"   />
+		</action>
+		<action name="eva_roll_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_roll">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_roll">
+			<rebind input="xi1_shoulderl+thumblx"   />
+		</action>
+		<action name="eva_strafe_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_up">
+			<rebind input="kb1_space"   />
+		</action>
+		<action name="eva_strafe_up">
+			<rebind input="xi1_a"   />
+		</action>
+		<action name="eva_strafe_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_down">
+			<rebind input="kb1_lctrl"   />
+		</action>
+		<action name="eva_strafe_down">
+			<rebind input="xi1_b"   />
+		</action>
+		<action name="eva_strafe_vertical">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_vertical">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_vertical">
+			<rebind input="xi1_shoulderl+thumbry"   />
+		</action>
+		<action name="eva_strafe_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_left">
+			<rebind input="kb1_a"   />
+		</action>
+		<action name="eva_strafe_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_right">
+			<rebind input="kb1_d"   />
+		</action>
+		<action name="eva_strafe_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_lateral">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_lateral">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_lateral">
+			<rebind input="xi1_thumblx"   />
+		</action>
+		<action name="eva_strafe_forward">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_forward">
+			<rebind input="kb1_w"   />
+		</action>
+		<action name="eva_strafe_forward">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_back">
+			<rebind input="kb1_s"   />
+		</action>
+		<action name="eva_strafe_back">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_longitudinal">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_longitudinal">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_strafe_longitudinal">
+			<rebind input="xi1_thumbly"   />
+		</action>
+		<action name="eva_brake">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_brake">
+			<rebind input="kb1_x"   />
+		</action>
+		<action name="eva_boost">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_boost">
+			<rebind input="kb1_lshift"   />
+		</action>
+		<action name="eva_boost">
+			<rebind input="xi1_thumbl"   />
+		</action>
+		<action name="eva_toggle_headlook_mode">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="eva_toggle_headlook_mode">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="eva_toggle_headlook_mode">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="vehicle_general">
+		<action name="v_exit">
+			<rebind input="js2_button19"   />
+		</action>
+		<action name="v_exit">
+			<rebind input="kb1_h"   />
+		</action>
+		<action name="v_exit">
+			<rebind input="xi1_shoulderl+y"   />
+		</action>
+		<action name="v_horn">
+			<rebind input="js1_button8"   />
+		</action>
+		<action name="v_horn">
+			<rebind input="kb1_capslock"   />
+		</action>
+		<action name="v_horn">
+			<rebind input="xi1_b"   />
+		</action>
+		<action name="v_view_cycle_fwd">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_cycle_fwd">
+			<rebind input="kb1_f4"   />
+		</action>
+		<action name="v_view_cycle_fwd">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_zoom_in">
+			<rebind input="js2_button30"   />
+		</action>
+		<action name="v_view_zoom_in">
+			<rebind input="kb1_mwheel_up"   />
+		</action>
+		<action name="v_view_zoom_in">
+			<rebind input="mo1_mwheel_up"   />
+		</action>
+		<action name="v_view_zoom_in">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_zoom_out">
+			<rebind input="js2_button31"   />
+		</action>
+		<action name="v_view_zoom_out">
+			<rebind input="kb1_mwheel_down"   />
+		</action>
+		<action name="v_view_zoom_out">
+			<rebind input="mo1_mwheel_down"   />
+		</action>
+		<action name="v_view_zoom_out">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_yaw_mouse">
+			<rebind input="mo1_maxis_x"   />
+		</action>
+		<action name="v_view_pitch_mouse">
+			<rebind input="mo1_maxis_y"   />
+		</action>
+		<action name="v_view_yaw">
+			<rebind input="js1_x"   />
+		</action>
+		<action name="v_view_yaw">
+			<rebind input="xi1_thumbrx"   />
+		</action>
+		<action name="v_view_pitch">
+			<rebind input="js1_y"   />
+		</action>
+		<action name="v_view_pitch">
+			<rebind input="xi1_thumbry"   />
+		</action>
+		<action name="v_view_look_behind">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_look_behind">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_view_look_behind">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_attack1_group1">
+			<rebind input="js1_button1"   />
+		</action>
+		<action name="v_attack1_group1">
+			<rebind input="mo1_mouse1"   />
+		</action>
+		<action name="v_attack1_group1">
+			<rebind input="xi1_shoulderr"   />
+		</action>
+		<action name="v_attack1_group2">
+			<rebind input="js1_button2"   />
+		</action>
+		<action name="v_attack1_group2">
+			<rebind input="mo1_mouse2"   />
+		</action>
+		<action name="v_attack1_group2">
+			<rebind input="xi1_thumbr"   />
+		</action>
+		<action name="v_view_yaw_absolute">
+			<rebind input="kb1_HMD_Yaw"   />
+		</action>
+		<action name="v_view_pitch_absolute">
+			<rebind input="kb1_HMD_Pitch"   />
+		</action>
+		<action name="v_view_roll_absolute">
+			<rebind input="kb1_HMD_Roll"   />
+		</action>
+		<action name="mobiglas">
+			<rebind input="kb1_f1"   />
+		</action>
+		<action name="mobiglas">
+			<rebind input="xi1_back"   />
+		</action>
+		<action name="v_flightready">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_flightready">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_flightready">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_open_all">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_open_all">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_open_all">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_close_all">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_close_all">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_close_all">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_lock_all">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_lock_all">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_lock_all">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_unlock_all">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_unlock_all">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="v_doors_unlock_all">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="v_starmap">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="v_starmap">
+			<rebind input="kb1_f2"   />
+		</action>
+		<action name="v_starmap">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="vehicle_gunner">
+		<action name="v_attack1">
+			<rebind input="js1_button1"   />
+		</action>
+		<action name="v_attack1">
+			<rebind input="mo1_mouse1"   />
+		</action>
+		<action name="v_attack1">
+			<rebind input="xi1_shoulderr"   />
+		</action>
+		<action name="v_attack2">
+			<rebind input="js1_button2"   />
+		</action>
+		<action name="v_attack2">
+			<rebind input="mo1_mouse2"   />
+		</action>
+		<action name="v_attack2">
+			<rebind input="xi1_thumbr"   />
+		</action>
+	</actionmap>
+	<actionmap name="debug">
+		<action name="flymode">
+			<rebind input="kb1_f3"   />
+		</action>
+		<action name="flymode_strafe_up">
+			<rebind input="kb1_space"   />
+		</action>
+		<action name="flymode_strafe_down">
+			<rebind input="kb1_lctrl"   />
+		</action>
+		<action name="flymode_roll_left">
+			<rebind input="kb1_q"   />
+		</action>
+		<action name="flymode_roll_right">
+			<rebind input="kb1_e"   />
+		</action>
+		<action name="godmode">
+			<rebind input="kb1_f9"   />
+		</action>
+		<action name="toggleaidebugdraw">
+			<rebind input="kb1_f11"   />
+		</action>
+		<action name="ai_DebugCenterViewAgent">
+			<rebind input="kb1_np_divide"   />
+		</action>
+		<action name="togglepdrawhelpers">
+			<rebind input="kb1_f10"   />
+		</action>
+		<action name="mannequin_debugai">
+			<rebind input="kb1_np_multiply"   />
+		</action>
+		<action name="pl_result_state_debug_target">
+			<rebind input="kb1_np_period"   />
+		</action>
+	</actionmap>
+	<actionmap name="IFCS_controls">
+		<action name="v_IFCS_A">
+			<rebind input="kb1_rctrl+a"   />
+		</action>
+		<action name="v_IFCS_A">
+			<rebind input="xi1_a"   />
+		</action>
+		<action name="v_IFCS_B">
+			<rebind input="kb1_rctrl+b"   />
+		</action>
+		<action name="v_IFCS_B">
+			<rebind input="xi1_b"   />
+		</action>
+		<action name="v_IFCS_X">
+			<rebind input="kb1_rctrl+x"   />
+		</action>
+		<action name="v_IFCS_X">
+			<rebind input="xi1_x"   />
+		</action>
+		<action name="v_IFCS_Y">
+			<rebind input="kb1_rctrl+y"   />
+		</action>
+		<action name="v_IFCS_Y">
+			<rebind input="xi1_y"   />
+		</action>
+	</actionmap>
+	<actionmap name="spectator">
+		<action name="spectate_next_target">
+			<rebind input="js1_button1"   />
+		</action>
+		<action name="spectate_next_target">
+			<rebind input="mo1_mouse2"   />
+		</action>
+		<action name="spectate_next_target">
+			<rebind input="xi1_shoulderr"   />
+		</action>
+		<action name="spectate_prev_target">
+			<rebind input="js1_button2"   />
+		</action>
+		<action name="spectate_prev_target">
+			<rebind input="mo1_mouse1"   />
+		</action>
+		<action name="spectate_prev_target">
+			<rebind input="xi1_shoulderl"   />
+		</action>
+		<action name="spectate_toggle_lock_target">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_toggle_lock_target">
+			<rebind input="kb1_y"   />
+		</action>
+		<action name="spectate_toggle_lock_target">
+			<rebind input="xi1_y"   />
+		</action>
+		<action name="spectate_zoom">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_zoom">
+			<rebind input="kb1_maxis_z"   />
+		</action>
+		<action name="spectate_zoom">
+			<rebind input="mo1_maxis_z"   />
+		</action>
+		<action name="spectate_zoom">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_zoom_in">
+			<rebind input="js1_hat1_up"   />
+		</action>
+		<action name="spectate_zoom_in">
+			<rebind input="kb1_mwheel_up"   />
+		</action>
+		<action name="spectate_zoom_in">
+			<rebind input="mo1_mwheel_up"   />
+		</action>
+		<action name="spectate_zoom_in">
+			<rebind input="xi1_triggerr_btn"   />
+		</action>
+		<action name="spectate_zoom_out">
+			<rebind input="js1_hat1_down"   />
+		</action>
+		<action name="spectate_zoom_out">
+			<rebind input="kb1_mwheel_down"   />
+		</action>
+		<action name="spectate_zoom_out">
+			<rebind input="mo1_mwheel_down"   />
+		</action>
+		<action name="spectate_zoom_out">
+			<rebind input="xi1_triggerl_btn"   />
+		</action>
+		<action name="spectate_rotateyaw_mouse">
+			<rebind input="js1_x"   />
+		</action>
+		<action name="spectate_rotateyaw_mouse">
+			<rebind input="kb1_maxis_x"   />
+		</action>
+		<action name="spectate_rotateyaw_mouse">
+			<rebind input="mo1_maxis_x"   />
+		</action>
+		<action name="spectate_rotatepitch_mouse">
+			<rebind input="js1_y"   />
+		</action>
+		<action name="spectate_rotatepitch_mouse">
+			<rebind input="kb1_maxis_y"   />
+		</action>
+		<action name="spectate_rotatepitch_mouse">
+			<rebind input="mo1_maxis_y"   />
+		</action>
+		<action name="spectate_rotateyaw">
+			<rebind input="js1_x"   />
+		</action>
+		<action name="spectate_rotateyaw">
+			<rebind input="xi1_thumbrx"   />
+		</action>
+		<action name="spectate_rotatepitch">
+			<rebind input="js1_y"   />
+		</action>
+		<action name="spectate_rotatepitch">
+			<rebind input="xi1_thumbry"   />
+		</action>
+		<action name="spectate_toggle_hud">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_toggle_hud">
+			<rebind input="kb1_b"   />
+		</action>
+		<action name="spectate_toggle_hud">
+			<rebind input="xi1_b"   />
+		</action>
+		<action name="spectate_gen_nextcamera">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_gen_nextcamera">
+			<rebind input="kb1_n"   />
+		</action>
+		<action name="spectate_gen_nextcamera">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_gen_nextmode">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_gen_nextmode">
+			<rebind input="kb1_insert"   />
+		</action>
+		<action name="spectate_gen_nextmode">
+			<rebind input="xi1_a"   />
+		</action>
+		<action name="spectate_gen_prevmode">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_gen_prevmode">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_gen_prevmode">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_moveleft">
+			<rebind input="kb1_a"   />
+		</action>
+		<action name="spectate_moveleft">
+			<rebind input="xi1_thumbl_left"   />
+		</action>
+		<action name="spectate_moveright">
+			<rebind input="kb1_d"   />
+		</action>
+		<action name="spectate_moveright">
+			<rebind input="xi1_thumbl_right"   />
+		</action>
+		<action name="spectate_moveforward">
+			<rebind input="kb1_w"   />
+		</action>
+		<action name="spectate_moveforward">
+			<rebind input="xi1_thumbl_up"   />
+		</action>
+		<action name="spectate_moveback">
+			<rebind input="kb1_s"   />
+		</action>
+		<action name="spectate_moveback">
+			<rebind input="xi1_thumbl_down"   />
+		</action>
+		<action name="spectate_moveup">
+			<rebind input="kb1_space"   />
+		</action>
+		<action name="spectate_moveup">
+			<rebind input="xi1_shoulderl+thumbr_up"   />
+		</action>
+		<action name="spectate_movedown">
+			<rebind input="kb1_lctrl"   />
+		</action>
+		<action name="spectate_movedown">
+			<rebind input="xi1_shoulderl+thumbr_down"   />
+		</action>
+		<action name="spectate_freecam_sprint">
+			<rebind input="kb1_lshift"   />
+		</action>
+		<action name="spectate_freecam_sprint">
+			<rebind input="xi1_thumbl"   />
+		</action>
+		<action name="spectate_toggle_freecam">
+			<rebind input="kb1_z"   />
+		</action>
+		<action name="spectate_toggle_freecam">
+			<rebind input="xi1_thumbr"   />
+		</action>
+		<action name="spectate_toggle_thirdperson">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_toggle_thirdperson">
+			<rebind input="kb1_f4"   />
+		</action>
+		<action name="spectate_toggle_thirdperson">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="spectate_roll_left">
+			<rebind input="kb1_q"   />
+		</action>
+		<action name="spectate_roll_right">
+			<rebind input="kb1_e"   />
+		</action>
+	</actionmap>
+	<actionmap name="ui_textfield">
+		<action name="ui_textfield_enter">
+			<rebind input="kb1_np_enter"   />
+		</action>
+		<action name="ui_textfield_backspace">
+			<rebind input="kb1_backspace"   />
+		</action>
+		<action name="ui_textfield_arrow_up">
+			<rebind input="kb1_up"   />
+		</action>
+		<action name="ui_textfield_arrow_down">
+			<rebind input="kb1_down"   />
+		</action>
+		<action name="ui_textfield_arrow_left">
+			<rebind input="kb1_left"   />
+		</action>
+		<action name="ui_textfield_arrow_right">
+			<rebind input="kb1_right"   />
+		</action>
+	</actionmap>
+	<actionmap name="ui_notification">
+		<action name="ui_notification_accept">
+			<rebind input="kb1_lbracket"   />
+		</action>
+		<action name="ui_notification_decline">
+			<rebind input="kb1_rbracket"   />
+		</action>
+		<action name="ui_notification_ignore">
+			<rebind input="kb1_rbracket"   />
+		</action>
+	</actionmap>
+	<actionmap name="player_emotes">
+		<action name="emote_cs_forward">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_forward">
+			<rebind input="kb1_np_5"   />
+		</action>
+		<action name="emote_cs_forward">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_left">
+			<rebind input="kb1_np_1"   />
+		</action>
+		<action name="emote_cs_left">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_right">
+			<rebind input="kb1_np_3"   />
+		</action>
+		<action name="emote_cs_right">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_stop">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_stop">
+			<rebind input="kb1_np_2"   />
+		</action>
+		<action name="emote_cs_stop">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_yes">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_yes">
+			<rebind input="kb1_np_4"   />
+		</action>
+		<action name="emote_cs_yes">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_no">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cs_no">
+			<rebind input="kb1_np_6"   />
+		</action>
+		<action name="emote_cs_no">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_agree">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_agree">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_agree">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_angry">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_angry">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_angry">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_atease">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_atease">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_atease">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_attention">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_attention">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_attention">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_blah">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_blah">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_blah">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_bored">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_bored">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_bored">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_bow">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_bow">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_bow">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_burp">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_burp">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_burp">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cheer">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cheer">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cheer">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_chicken">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_chicken">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_chicken">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_clap">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_clap">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_clap">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_come">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_come">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_come">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cry">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cry">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_cry">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_dance">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_dance">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_dance">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_disagree">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_disagree">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_disagree">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_failure">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_failure">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_failure">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_flex">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_flex">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_flex">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_flirt">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_flirt">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_flirt">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_gasp">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_gasp">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_gasp">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_gloat">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_gloat">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_gloat">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_greet">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_greet">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_greet">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_laugh">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_laugh">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_laugh">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_launch">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_launch">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_launch">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_point">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_point">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_point">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_rude">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_rude">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_rude">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_salute">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_salute">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_salute">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_sit">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_sit">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_sit">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_sleep">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_sleep">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_sleep">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_smell">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_smell">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_smell">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_taunt">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_taunt">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_taunt">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_threaten">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_threaten">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_threaten">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_wait">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_wait">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_wait">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_wave">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_wave">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_wave">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="emote_whistle">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="emote_whistle">
+			<rebind input="kb1_ " multiTap="1"  />
+		</action>
+		<action name="emote_whistle">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+	<actionmap name="player_choice">
+		<action name="pc_interaction_mode">
+			<rebind input="js2_button1"   />
+		</action>
+		<action name="pc_interaction_mode">
+			<rebind input="kb1_f"   />
+		</action>
+		<action name="pc_interaction_mode">
+			<rebind input="xi1_y"   />
+		</action>
+		<action name="pc_interaction_quick">
+			<rebind input="js2_button1"  ActivationMode="tap" multiTap = "1"  />
+		</action>
+		<action name="pc_interaction_quick">
+			<rebind input="kb1_f"   />
+		</action>
+		<action name="pc_interaction_quick">
+			<rebind input="xi1_y"   />
+		</action>
+		<action name="pc_select">
+			<rebind input="js1_button2"   />
+		</action>
+		<action name="pc_select">
+			<rebind input="mo1_mouse1"   />
+		</action>
+		<action name="pc_select">
+			<rebind input="xi1_triggerr_btn"   />
+		</action>
+		<action name="pc_focus">
+			<rebind input="mo1_mouse3"   />
+		</action>
+		<action name="pc_focus">
+			<rebind input="xi1_triggerl_btn"   />
+		</action>
+		<action name="pc_throw_decrease">
+			<rebind input="mo1_mouse2"   />
+		</action>
+		<action name="pc_throw_decrease">
+			<rebind input="xi1_triggerl_btn"   />
+		</action>
+		<action name="pc_zoom_in">
+			<rebind input="js2_button30"   />
+		</action>
+		<action name="pc_zoom_in">
+			<rebind input="kb1_mwheel_up"   />
+		</action>
+		<action name="pc_zoom_in">
+			<rebind input="mo1_mwheel_up"   />
+		</action>
+		<action name="pc_zoom_in">
+			<rebind input="xi1_dpad_up"   />
+		</action>
+		<action name="pc_zoom_out">
+			<rebind input="js2_button31"   />
+		</action>
+		<action name="pc_zoom_out">
+			<rebind input="kb1_mwheel_down"   />
+		</action>
+		<action name="pc_zoom_out">
+			<rebind input="mo1_mwheel_down"   />
+		</action>
+		<action name="pc_zoom_out">
+			<rebind input="xi1_dpad_down"   />
+		</action>
+		<action name="pc_screen_focus_left">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_screen_focus_left">
+			<rebind input="kb1_a"   />
+		</action>
+		<action name="pc_screen_focus_left">
+			<rebind input="xi1_dpad_left"   />
+		</action>
+		<action name="pc_screen_focus_right">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_screen_focus_right">
+			<rebind input="kb1_d"   />
+		</action>
+		<action name="pc_screen_focus_right">
+			<rebind input="xi1_dpad_right"   />
+		</action>
+		<action name="pc_screen_focus_up">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_screen_focus_up">
+			<rebind input="kb1_w"   />
+		</action>
+		<action name="pc_screen_focus_up">
+			<rebind input="xi1_dpad_up"   />
+		</action>
+		<action name="pc_screen_focus_down">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_screen_focus_down">
+			<rebind input="kb1_s"   />
+		</action>
+		<action name="pc_screen_focus_down">
+			<rebind input="xi1_dpad_down"   />
+		</action>
+		<action name="pc_personal_thought">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_personal_thought">
+			<rebind input="kb1_tab"   />
+		</action>
+		<action name="pc_personal_thought">
+			<rebind input="xi1_thumbl"   />
+		</action>
+		<action name="pc_personal_index1">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_personal_index1">
+			<rebind input="kb1_np_1"   />
+		</action>
+		<action name="pc_personal_index1">
+			<rebind input="xi1_x"   />
+		</action>
+		<action name="pc_personal_index2">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_personal_index2">
+			<rebind input="kb1_np_2"   />
+		</action>
+		<action name="pc_personal_index2">
+			<rebind input="xi1_a"   />
+		</action>
+		<action name="pc_personal_index3">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_personal_index3">
+			<rebind input="kb1_np_3"   />
+		</action>
+		<action name="pc_personal_index3">
+			<rebind input="xi1_b"   />
+		</action>
+		<action name="pc_personal_index4">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_personal_index4">
+			<rebind input="kb1_np_4"   />
+		</action>
+		<action name="pc_personal_index4">
+			<rebind input="xi1_dpad_left"   />
+		</action>
+		<action name="pc_personal_index5">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_personal_index5">
+			<rebind input="kb1_np_5"   />
+		</action>
+		<action name="pc_personal_index5">
+			<rebind input="xi1_dpad_down"   />
+		</action>
+		<action name="pc_personal_index6">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_personal_index6">
+			<rebind input="kb1_np_6"   />
+		</action>
+		<action name="pc_personal_index6">
+			<rebind input="xi1_dpad_right"   />
+		</action>
+		<action name="pc_personal_back">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="pc_personal_back">
+			<rebind input="kb1_np_0"   />
+		</action>
+		<action name="pc_personal_back">
+			<rebind input="xi1_thumbr"   />
+		</action>
+	</actionmap>
+	<actionmap name="view_director_mode">
+		<action name="view_enable_camview_mode">
+			<rebind input="kb1_f4"   />
+		</action>
+		<action name="view_switch_to_alternative">
+			<rebind input="kb1_z"   />
+		</action>
+		<action name="view_save_view_1">
+			<rebind input="kb1_np_1"   />
+		</action>
+		<action name="view_save_view_2">
+			<rebind input="kb1_np_2"   />
+		</action>
+		<action name="view_save_view_3">
+			<rebind input="kb1_np_3"   />
+		</action>
+		<action name="view_save_view_4">
+			<rebind input="kb1_np_4"   />
+		</action>
+		<action name="view_save_view_5">
+			<rebind input="kb1_np_5"   />
+		</action>
+		<action name="view_save_view_6">
+			<rebind input="kb1_np_6"   />
+		</action>
+		<action name="view_save_view_7">
+			<rebind input="kb1_np_7"   />
+		</action>
+		<action name="view_save_view_8">
+			<rebind input="kb1_np_8"   />
+		</action>
+		<action name="view_save_view_9">
+			<rebind input="kb1_np_9"   />
+		</action>
+		<action name="view_load_view_1">
+			<rebind input="kb1_np_1"   />
+		</action>
+		<action name="view_load_view_2">
+			<rebind input="kb1_np_2"   />
+		</action>
+		<action name="view_load_view_3">
+			<rebind input="kb1_np_3"   />
+		</action>
+		<action name="view_load_view_4">
+			<rebind input="kb1_np_4"   />
+		</action>
+		<action name="view_load_view_5">
+			<rebind input="kb1_np_5"   />
+		</action>
+		<action name="view_load_view_6">
+			<rebind input="kb1_np_6"   />
+		</action>
+		<action name="view_load_view_7">
+			<rebind input="kb1_np_7"   />
+		</action>
+		<action name="view_load_view_8">
+			<rebind input="kb1_np_8"   />
+		</action>
+		<action name="view_load_view_9">
+			<rebind input="kb1_np_9"   />
+		</action>
+		<action name="view_reset_saved">
+			<rebind input="kb1_np_0"   />
+		</action>
+		<action name="view_move_target_X_pos">
+			<rebind input="kb1_right"   />
+		</action>
+		<action name="view_move_target_X_neg">
+			<rebind input="kb1_left"   />
+		</action>
+		<action name="view_move_target_Y_pos">
+			<rebind input="kb1_up"   />
+		</action>
+		<action name="view_move_target_Y_neg">
+			<rebind input="kb1_down"   />
+		</action>
+		<action name="view_move_target_Z_pos">
+			<rebind input="kb1_pgup"   />
+		</action>
+		<action name="view_move_target_Z_neg">
+			<rebind input="kb1_pgdn"   />
+		</action>
+		<action name="view_fov_in">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="view_fov_in">
+			<rebind input="kb1_np_add"   />
+		</action>
+		<action name="view_fov_in">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="view_fov_out">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="view_fov_out">
+			<rebind input="kb1_np_subtract"   />
+		</action>
+		<action name="view_fov_out">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="view_fstop_in">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="view_fstop_in">
+			<rebind input="kb1_home"   />
+		</action>
+		<action name="view_fstop_in">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="view_fstop_out">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="view_fstop_out">
+			<rebind input="kb1_end"   />
+		</action>
+		<action name="view_fstop_out">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+		<action name="view_restore_defaults">
+			<rebind input="js1_ " multiTap="1"  />
+		</action>
+		<action name="view_restore_defaults">
+			<rebind input="kb1_np_multiply"   />
+		</action>
+		<action name="view_restore_defaults">
+			<rebind input="xi1_ " multiTap="1"  />
+		</action>
+	</actionmap>
+</ActionMaps>
