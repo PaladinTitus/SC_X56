@@ -1,4 +1,4 @@
-<!-- 24.01.2019 23:30:22 - SC Joystick Mapping - layout_my_joystick -->
+<!-- 24.01.2019 23:35:54 - SC Joystick Mapping - layout_my_joystick -->
 <ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="my_joystick" 
 	js1="Saitek Pro Flight X-56 Rhino Stick" js1G="61c85280-1733-11e9-8001-444553540000" 
 	js2="Saitek Pro Flight X-56 Rhino Throttle" js2G="62423d70-1733-11e9-8003-444553540000" 
@@ -21,12 +21,8 @@
  
 	<options type="joystick" instance="2">
 		<flight_move_strafe_vertical invert="1"  /> 
-	</options>
- 
-	<options type="joystick" instance="2">
 		<mining_throttle invert="1"  /> 
-	</options>
- 
+	</options> 
 
 	<actionmap name="spaceship_general">
 		<action name="v_eject">
@@ -478,16 +474,10 @@
 			<rebind input="xi1_ " multiTap="1"  />
 		</action>
 		<action name="v_strafe_up">
-			<rebind input="js1_button9"   />
-		</action>
-		<action name="v_strafe_up">
 			<rebind input="kb1_space"   />
 		</action>
 		<action name="v_strafe_up">
 			<rebind input="xi1_ " multiTap="1"  />
-		</action>
-		<action name="v_strafe_down">
-			<rebind input="js1_button10"   />
 		</action>
 		<action name="v_strafe_down">
 			<rebind input="kb1_lctrl"   />
@@ -2016,9 +2006,6 @@
 			<rebind input="xi1_shoulderl+y"   />
 		</action>
 		<action name="v_horn">
-			<rebind input="js1_button8"   />
-		</action>
-		<action name="v_horn">
 			<rebind input="kb1_capslock"   />
 		</action>
 		<action name="v_horn">
@@ -2869,16 +2856,10 @@
 			<rebind input="xi1_triggerr_btn"   />
 		</action>
 		<action name="pc_focus">
-			<rebind input="js1_button7"   />
-		</action>
-		<action name="pc_focus">
 			<rebind input="mo1_mouse3"   />
 		</action>
 		<action name="pc_focus">
 			<rebind input="xi1_triggerl_btn"   />
-		</action>
-		<action name="pc_throw_decrease">
-			<rebind input="js1_button7"   />
 		</action>
 		<action name="pc_throw_decrease">
 			<rebind input="mo1_mouse2"   />
