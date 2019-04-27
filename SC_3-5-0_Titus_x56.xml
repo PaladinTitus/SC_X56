@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="New2">
- <CustomisationUIHeader label="New2" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Save_27-04-2019">
+ <CustomisationUIHeader label="Save_27-04-2019" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -20,7 +20,7 @@
  </options>
  <options type="joystick" instance="2" Product="Saitek Pro Flight X-56 Rhino Throttle {A2210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_vertical invert="1"/>
-  <flight_move_speed_range invert="1" exponent="0.5"/>
+  <flight_move_strafe_forward invert="1"/>
   <mining_throttle invert="0" exponent="0.5"/>
  </options>
  <modifiers />
@@ -55,10 +55,10 @@
    <rebind input="js2_button2"/>
   </action>
   <action name="v_view_dynamic_focus_in">
-   <rebind input="js2_button30"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_view_dynamic_focus_out">
-   <rebind input="js2_button31"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_view_pitch_down">
    <rebind input="js1_hat1_down"/>
@@ -105,7 +105,7 @@
    <rebind input="js2_button17" activationMode="hold"/>
   </action>
   <action name="v_speed_range_abs">
-   <rebind input="js2_y"/>
+   <rebind input="js2_z"/>
   </action>
   <action name="v_speed_range_rel">
    <rebind input="js2_ "/>
@@ -117,7 +117,7 @@
    <rebind input="js1_ "/>
   </action>
   <action name="v_strafe_forward">
-   <rebind input="js1_ "/>
+   <rebind input="js2_y"/>
   </action>
   <action name="v_strafe_lateral">
    <rebind input="js2_rotx"/>
@@ -269,10 +269,21 @@
    <rebind input="js2_button19"/>
   </action>
   <action name="v_view_zoom_in">
-   <rebind input="js2_button30"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_view_zoom_out">
-   <rebind input="js2_button31"/>
+   <rebind input="js2_ "/>
+  </action>
+ </actionmap>
+ <actionmap name="vehicle_driver">
+  <action name="v_brake">
+   <rebind input="js2_ "/>
+  </action>
+  <action name="v_move">
+   <rebind input="js2_ "/>
+  </action>
+  <action name="v_yaw">
+   <rebind input="js1_ "/>
   </action>
  </actionmap>
  <actionmap name="player_choice">
