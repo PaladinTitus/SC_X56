@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Save_27-04-2019">
- <CustomisationUIHeader label="Save_27-04-2019" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="X56_SC_3-6">
+ <CustomisationUIHeader label="X56_SC_3-6" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -25,17 +25,8 @@
  </options>
  <modifiers />
  <actionmap name="spaceship_general">
-  <action name="v_doors_close_all">
+  <action name="v_close_all_doors">
    <rebind input="js2_button14" activationMode="delayed_hold_no_retrigger"/>
-  </action>
-  <action name="v_doors_lock_all">
-   <rebind input="js2_button15"/>
-  </action>
-  <action name="v_doors_open_all">
-   <rebind input="js2_button14"/>
-  </action>
-  <action name="v_doors_unlock_all">
-   <rebind input="js2_button15" activationMode="delayed_hold_no_retrigger"/>
   </action>
   <action name="v_eject">
    <rebind input="js2_button18" activationMode="double_tap"/>
@@ -46,8 +37,17 @@
   <action name="v_flightready">
    <rebind input="js2_button16"/>
   </action>
+  <action name="v_lock_all_doors">
+   <rebind input="js2_button15"/>
+  </action>
+  <action name="v_open_all_doors">
+   <rebind input="js2_button14"/>
+  </action>
   <action name="v_self_destruct">
    <rebind input="js2_button18" activationMode="delayed_hold_no_retrigger"/>
+  </action>
+  <action name="v_unlock_all_doors">
+   <rebind input="js2_button15" activationMode="delayed_hold_no_retrigger"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_view">
@@ -80,6 +80,9 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_movement">
+  <action name="v_accel_range_abs">
+   <rebind input="js2_rotz"/>
+  </action>
   <action name="v_afterburner">
    <rebind input="js2_button5"/>
   </action>
@@ -180,14 +183,19 @@
   <action name="v_target_nearest_hostile">
    <rebind input="js1_button13"/>
   </action>
-  <action name="v_toggle_mining_mode">
-   <rebind input="js2_button10"/>
-  </action>
+ </actionmap>
+ <actionmap name="spaceship_scanning">
   <action name="v_toggle_scan_mode">
    <rebind input="js2_button11"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_mining">
+  <action name="v_decrease_mining_throttle">
+   <rebind input="js1_ "/>
+  </action>
+  <action name="v_increase_mining_throttle">
+   <rebind input="js1_ "/>
+  </action>
   <action name="v_mining_throttle">
    <rebind input="js2_slider2"/>
   </action>
@@ -289,9 +297,6 @@
  <actionmap name="player_choice">
   <action name="pc_interaction_mode">
    <rebind input="js2_button1"/>
-  </action>
-  <action name="pc_select">
-   <rebind input="js1_button2"/>
   </action>
   <action name="pc_zoom_in">
    <rebind input="js2_button30"/>
