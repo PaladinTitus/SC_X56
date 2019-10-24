@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="X56_SC_3-6">
- <CustomisationUIHeader label="X56_SC_3-6" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Eramur_371">
+ <CustomisationUIHeader label="Eramur_371" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -152,6 +152,9 @@
   <action name="v_toggle_qdrive_spooling">
    <rebind input="js2_button12"/>
   </action>
+  <action name="v_toggle_vtol">
+   <rebind input="js2_button8"/>
+  </action>
  </actionmap>
  <actionmap name="spaceship_docking">
   <action name="v_invoke_docking">
@@ -189,6 +192,14 @@
    <rebind input="js2_button11"/>
   </action>
  </actionmap>
+ <actionmap name="spaceship_ping">
+  <action name="v_dec_ping_focus_angle">
+   <rebind input="js2_button31"/>
+  </action>
+  <action name="v_inc_ping_focus_angle">
+   <rebind input="js2_button30"/>
+  </action>
+ </actionmap>
  <actionmap name="spaceship_mining">
   <action name="v_decrease_mining_throttle">
    <rebind input="js1_ "/>
@@ -201,6 +212,9 @@
   </action>
   <action name="v_toggle_mining_laser_type">
    <rebind input="js1_button5"/>
+  </action>
+  <action name="v_toggle_mining_mode">
+   <rebind input="js2_button10"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_weapons">
