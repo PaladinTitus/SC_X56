@@ -26,7 +26,7 @@
  <modifiers />
  <actionmap name="spaceship_general">
   <action name="v_close_all_doors">
-   <rebind input="js2_button14" activationMode="delayed_hold_no_retrigger"/>
+   <rebind input="js2_button14" activationMode="delayed_press"/>
   </action>
   <action name="v_eject">
    <rebind input="js2_button18" activationMode="double_tap"/>
@@ -44,10 +44,10 @@
    <rebind input="js2_button14"/>
   </action>
   <action name="v_self_destruct">
-   <rebind input="js2_button18" activationMode="delayed_hold_no_retrigger"/>
+   <rebind input="js2_button18" activationMode="delayed_press"/>
   </action>
   <action name="v_unlock_all_doors">
-   <rebind input="js2_button15" activationMode="delayed_hold_no_retrigger"/>
+   <rebind input="js2_button15" activationMode="delayed_press"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_view">
@@ -87,7 +87,7 @@
    <rebind input="js2_button5"/>
   </action>
   <action name="v_autoland">
-   <rebind input="js2_button13" activationMode="delayed_hold_no_retrigger"/>
+   <rebind input="js2_button13" activationMode="delayed_press"/>
   </action>
   <action name="v_brake">
    <rebind input="js2_button4"/>
@@ -105,7 +105,7 @@
    <rebind input="js2_button28"/>
   </action>
   <action name="v_ifcs_toggle_vector_decoupling">
-   <rebind input="js2_button17" activationMode="hold"/>
+   <rebind input="js2_button17"/>
   </action>
   <action name="v_speed_range_abs">
    <rebind input="js2_z"/>
@@ -189,7 +189,7 @@
  </actionmap>
  <actionmap name="spaceship_scanning">
   <action name="v_toggle_scan_mode">
-   <rebind input="js2_button11"/>
+   <rebind input="js2_button10"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_ping">
@@ -214,7 +214,7 @@
    <rebind input="js1_button5"/>
   </action>
   <action name="v_toggle_mining_mode">
-   <rebind input="js2_button10"/>
+   <rebind input="js2_button11"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_weapons">
