@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Eramur_371">
- <CustomisationUIHeader label="Eramur_381" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Eramur_390">
+ <CustomisationUIHeader label="Eramur_390" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -15,10 +15,10 @@
   </categories>
  </CustomisationUIHeader>
  <options type="keyboard" instance="1" Product="Tastatur {6F1D2B61-D5A0-11CF-BFC7-444553540000}"/>
- <options type="joystick" instance="1" Product="Saitek Pro Flight X-56 Rhino Stick {22210738-0000-0000-0000-504944564944}">
+ <options type="joystick" instance="1" Product="X56 H.O.T.A.S. Stick {22210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_longitudinal invert="1"/>
  </options>
- <options type="joystick" instance="2" Product="Saitek Pro Flight X-56 Rhino Throttle {A2210738-0000-0000-0000-504944564944}">
+ <options type="joystick" instance="2" Product="X56 H.O.T.A.S. Throttle {A2210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_vertical invert="1"/>
   <flight_move_strafe_forward invert="1"/>
   <mining_throttle invert="0" exponent="0.5"/>
@@ -26,7 +26,7 @@
  <modifiers />
  <actionmap name="spaceship_general">
   <action name="v_close_all_doors">
-   <rebind input="js2_button14" activationMode="delayed_press"/>
+   <rebind input="js2_button14" activationMode="delayed_hold_no_retrigger"/>
   </action>
   <action name="v_eject">
    <rebind input="js2_button18" activationMode="double_tap"/>
@@ -38,27 +38,21 @@
    <rebind input="js2_button16"/>
   </action>
   <action name="v_lock_all_doors">
-   <rebind input="js2_button15"/>
+   <rebind input="js2_button15" activationMode="tap"/>
   </action>
   <action name="v_open_all_doors">
-   <rebind input="js2_button14"/>
+   <rebind input="js2_button14" activationMode="tap"/>
   </action>
   <action name="v_self_destruct">
    <rebind input="js2_button18" activationMode="delayed_press"/>
   </action>
   <action name="v_unlock_all_doors">
-   <rebind input="js2_button15" activationMode="delayed_press"/>
+   <rebind input="js2_button15" activationMode="delayed_hold_no_retrigger"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_view">
   <action name="v_view_cycle_fwd">
    <rebind input="js2_button2"/>
-  </action>
-  <action name="v_view_dynamic_focus_in">
-   <rebind input="js2_ "/>
-  </action>
-  <action name="v_view_dynamic_focus_out">
-   <rebind input="js2_ "/>
   </action>
   <action name="v_view_pitch_down">
    <rebind input="js1_hat1_down"/>
@@ -257,14 +251,14 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_power">
-  <action name="v_power_focus_group_1">
-   <rebind input="js2_button27"/>
-  </action>
-  <action name="v_power_focus_group_2">
+  <action name="v_power_focus_shields">
    <rebind input="js2_button25"/>
   </action>
-  <action name="v_power_focus_group_3">
+  <action name="v_power_focus_thrusters">
    <rebind input="js2_button26"/>
+  </action>
+  <action name="v_power_focus_weapons">
+   <rebind input="js2_button27"/>
   </action>
   <action name="v_power_reset_focus">
    <rebind input="js2_button24"/>
