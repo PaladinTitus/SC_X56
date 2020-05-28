@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Eramur_390">
- <CustomisationUIHeader label="Eramur_390" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Eramur_391">
+ <CustomisationUIHeader label="Eramur_391" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -159,6 +159,9 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
+  <action name="v_invoke_ping">
+   <rebind input="js1_button5"/>
+  </action>
   <action name="v_target_cycle_all_back">
    <rebind input="js1_button10"/>
   </action>
@@ -182,6 +185,9 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_scanning">
+  <action name="v_scanning_trigger_scan">
+   <rebind input="js1_button1"/>
+  </action>
   <action name="v_toggle_scan_mode">
    <rebind input="js2_button10"/>
   </action>
