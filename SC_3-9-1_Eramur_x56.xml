@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="Eramur_391">
- <CustomisationUIHeader label="Eramur_391" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="TryOne">
+ <CustomisationUIHeader label="Eramur_3100" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -53,18 +53,6 @@
  <actionmap name="spaceship_view">
   <action name="v_view_cycle_fwd">
    <rebind input="js2_button2"/>
-  </action>
-  <action name="v_view_pitch_down">
-   <rebind input="js1_hat1_down"/>
-  </action>
-  <action name="v_view_pitch_up">
-   <rebind input="js1_hat1_up"/>
-  </action>
-  <action name="v_view_yaw_left">
-   <rebind input="js1_hat1_left"/>
-  </action>
-  <action name="v_view_yaw_right">
-   <rebind input="js1_hat1_right"/>
   </action>
   <action name="v_view_zoom_in">
    <rebind input="js2_button30"/>
@@ -159,29 +147,52 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
-  <action name="v_invoke_ping">
-   <rebind input="js1_button5"/>
-  </action>
-  <action name="v_target_cycle_all_back">
-   <rebind input="js1_button10"/>
-  </action>
-  <action name="v_target_cycle_all_fwd">
-   <rebind input="js1_button8"/>
-  </action>
-  <action name="v_target_cycle_friendly_back">
+  <action name="v_target_remove_all_pins">
    <rebind input="js1_button9"/>
   </action>
-  <action name="v_target_cycle_friendly_fwd">
+  <action name="v_target_toggle_lock_index_1">
+   <rebind input="js1_button10"/>
+  </action>
+  <action name="v_target_toggle_lock_index_2">
    <rebind input="js1_button7"/>
   </action>
-  <action name="v_target_cycle_hostile_back">
-   <rebind input="js1_button14"/>
+  <action name="v_target_toggle_lock_index_3">
+   <rebind input="js1_button8"/>
+  </action>
+  <action name="v_target_toggle_pin_index_1_hold">
+   <rebind input="js1_button10"/>
+  </action>
+  <action name="v_target_toggle_pin_index_2_hold">
+   <rebind input="js1_button7"/>
+  </action>
+  <action name="v_target_toggle_pin_index_3_hold">
+   <rebind input="js1_button8"/>
+  </action>
+ </actionmap>
+ <actionmap name="spaceship_targeting_advanced">
+  <action name="v_target_cycle_all_fwd">
+   <rebind input="js1_hat1_right"/>
+  </action>
+  <action name="v_target_cycle_all_reset">
+   <rebind input="js1_hat1_left"/>
+  </action>
+  <action name="v_target_cycle_attacker_fwd">
+   <rebind input="js1_hat1_up"/>
+  </action>
+  <action name="v_target_cycle_attacker_reset">
+   <rebind input="js1_hat1_down"/>
   </action>
   <action name="v_target_cycle_hostile_fwd">
+   <rebind input="js1_button11"/>
+  </action>
+  <action name="v_target_cycle_hostile_reset">
+   <rebind input="js1_button13"/>
+  </action>
+  <action name="v_target_cycle_in_view_fwd">
    <rebind input="js1_button12"/>
   </action>
-  <action name="v_target_nearest_hostile">
-   <rebind input="js1_button13"/>
+  <action name="v_target_cycle_in_view_reset">
+   <rebind input="js1_button14"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_scanning">
