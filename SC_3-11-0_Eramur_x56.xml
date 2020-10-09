@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="TryOne">
- <CustomisationUIHeader label="Eramur_3100" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="3-11-0">
+ <CustomisationUIHeader label="Eramur_3110" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -78,10 +78,10 @@
    <rebind input="js2_button29"/>
   </action>
   <action name="v_ifcs_toggle_esp">
-   <rebind input="js2_button7"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_ifcs_toggle_gforce_safety">
-   <rebind input="js2_button6"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_ifcs_toggle_speed_limiter">
    <rebind input="js2_button28"/>
@@ -210,6 +210,9 @@
   <action name="v_inc_ping_focus_angle">
    <rebind input="js2_button30"/>
   </action>
+  <action name="v_invoke_ping">
+   <rebind input="js1_button3"/>
+  </action>
  </actionmap>
  <actionmap name="spaceship_mining">
   <action name="v_decrease_mining_throttle">
@@ -222,7 +225,7 @@
    <rebind input="js2_slider2"/>
   </action>
   <action name="v_toggle_mining_laser_type">
-   <rebind input="js1_button5"/>
+   <rebind input="js1_button3"/>
   </action>
   <action name="v_toggle_mining_mode">
    <rebind input="js2_button11"/>
@@ -230,7 +233,7 @@
  </actionmap>
  <actionmap name="spaceship_weapons">
   <action name="v_attack1_group2">
-   <rebind input="js1_button5"/>
+   <rebind input="js1_button3"/>
   </action>
   <action name="v_weapon_cycle_aimmode">
    <rebind input="js2_button9"/>
@@ -239,6 +242,12 @@
  <actionmap name="spaceship_missiles">
   <action name="v_weapon_arm_missile">
    <rebind input="js1_button2"/>
+  </action>
+  <action name="v_weapon_cycle_missile_back">
+   <rebind input="js2_button7"/>
+  </action>
+  <action name="v_weapon_cycle_missile_fwd">
+   <rebind input="js2_button6"/>
   </action>
   <action name="v_weapon_launch_missile">
    <rebind input="js1_button2" activationMode="delayed_hold_no_retrigger"/>
@@ -260,11 +269,8 @@
   <action name="v_shield_reset_level">
    <rebind input="js2_button3"/>
   </action>
-  <action name="v_weapon_cycle_countermeasure_fwd">
-   <rebind input="js1_button6" activationMode="delayed_press"/>
-  </action>
-  <action name="v_weapon_launch_countermeasure">
-   <rebind input="js1_button6" activationMode="tap"/>
+  <action name="v_weapon_countermeasure_launch_decoy">
+   <rebind input="js1_button6"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_power">
@@ -294,7 +300,7 @@
  </actionmap>
  <actionmap name="lights_controller">
   <action name="v_lights">
-   <rebind input="js1_button3"/>
+   <rebind input="js2_button1"/>
   </action>
  </actionmap>
  <actionmap name="vehicle_general">
@@ -321,7 +327,7 @@
  </actionmap>
  <actionmap name="player_choice">
   <action name="pc_interaction_mode">
-   <rebind input="js2_button1"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="pc_zoom_in">
    <rebind input="js2_button30"/>
