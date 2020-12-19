@@ -168,6 +168,9 @@
   <action name="v_target_toggle_pin_index_3_hold">
    <rebind input="js1_button8"/>
   </action>
+  <action name="v_target_unlock_selected">
+   <rebind input="js1_button9" activationMode="delayed_hold_no_retrigger"/>
+  </action>
  </actionmap>
  <actionmap name="spaceship_targeting_advanced">
   <action name="v_target_cycle_all_fwd">
