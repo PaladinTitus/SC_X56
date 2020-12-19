@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="3-11-0">
- <CustomisationUIHeader label="Eramur_3110" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="3-12-0">
+ <CustomisationUIHeader label="Eramur_3_12_0" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -71,9 +71,6 @@
   <action name="v_autoland">
    <rebind input="js2_button13" activationMode="delayed_press"/>
   </action>
-  <action name="v_brake">
-   <rebind input="js2_button4"/>
-  </action>
   <action name="v_ifcs_toggle_cruise_control">
    <rebind input="js2_button29"/>
   </action>
@@ -88,6 +85,9 @@
   </action>
   <action name="v_ifcs_toggle_vector_decoupling">
    <rebind input="js2_button17"/>
+  </action>
+  <action name="v_space_brake">
+   <rebind input="js2_button4"/>
   </action>
   <action name="v_speed_range_abs">
    <rebind input="js2_z"/>
@@ -211,7 +211,7 @@
    <rebind input="js2_button30"/>
   </action>
   <action name="v_invoke_ping">
-   <rebind input="js1_button3"/>
+   <rebind input="js1_button5"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_mining">
@@ -225,7 +225,7 @@
    <rebind input="js2_slider2"/>
   </action>
   <action name="v_toggle_mining_laser_type">
-   <rebind input="js1_button3"/>
+   <rebind input="js1_button5"/>
   </action>
   <action name="v_toggle_mining_mode">
    <rebind input="js2_button11"/>
@@ -233,7 +233,7 @@
  </actionmap>
  <actionmap name="spaceship_weapons">
   <action name="v_attack1_group2">
-   <rebind input="js1_button3"/>
+   <rebind input="js1_button5"/>
   </action>
   <action name="v_weapon_cycle_aimmode">
    <rebind input="js2_button9"/>
@@ -269,8 +269,11 @@
   <action name="v_shield_reset_level">
    <rebind input="js2_button3"/>
   </action>
-  <action name="v_weapon_countermeasure_launch_decoy">
+  <action name="v_weapon_countermeasure_decoy_launch">
    <rebind input="js1_button6"/>
+  </action>
+  <action name="v_weapon_countermeasure_noise_launch">
+   <rebind input="js1_button3"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_power">
@@ -304,6 +307,9 @@
   </action>
  </actionmap>
  <actionmap name="vehicle_general">
+  <action name="v_attack1_group2">
+   <rebind input="js1_button5"/>
+  </action>
   <action name="v_exit">
    <rebind input="js2_button19"/>
   </action>
@@ -315,14 +321,17 @@
   </action>
  </actionmap>
  <actionmap name="vehicle_driver">
+  <action name="v_boost">
+   <rebind input="js2_button5"/>
+  </action>
   <action name="v_brake">
-   <rebind input="js2_ "/>
+   <rebind input="js2_button4"/>
   </action>
   <action name="v_move">
-   <rebind input="js2_ "/>
+   <rebind input="js1_roty"/>
   </action>
-  <action name="v_yaw">
-   <rebind input="js1_ "/>
+  <action name="v_move_forward">
+   <rebind input="js2_y"/>
   </action>
  </actionmap>
  <actionmap name="player_choice">
