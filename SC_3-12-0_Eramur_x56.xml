@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="3-12-0">
- <CustomisationUIHeader label="Eramur_3_12_0" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-14-1_Eramur_X56">
+ <CustomisationUIHeader label="SC_3-14-1_Eramur_X56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -7,8 +7,8 @@
    <joystick instance="2"/>
   </devices>
   <categories>
+   <category label="@ui_CCSeatGeneral"/>
    <category label="@ui_CCSpaceFlight"/>
-   <category label=""/>
    <category label="@ui_CGLightControllerDesc"/>
    <category label="@ui_CCVehicle"/>
    <category label="@ui_CGInteraction"/>
@@ -24,15 +24,26 @@
   <mining_throttle invert="0" exponent="0.5"/>
  </options>
  <modifiers />
+ <actionmap name="seat_general">
+  <action name="v_eject">
+   <rebind input="js2_button18"/>
+  </action>
+  <action name="v_toggle_mining_mode">
+   <rebind input="js2_button11"/>
+  </action>
+  <action name="v_toggle_missile_mode">
+   <rebind input="js1_button2"/>
+  </action>
+  <action name="v_toggle_quantum_mode">
+   <rebind input="js2_button12"/>
+  </action>
+  <action name="v_toggle_scan_mode">
+   <rebind input="js2_button10"/>
+  </action>
+ </actionmap>
  <actionmap name="spaceship_general">
   <action name="v_close_all_doors">
    <rebind input="js2_button14" activationMode="delayed_hold_no_retrigger"/>
-  </action>
-  <action name="v_eject">
-   <rebind input="js2_button18" activationMode="double_tap"/>
-  </action>
-  <action name="v_exit">
-   <rebind input="js2_button19"/>
   </action>
   <action name="v_flightready">
    <rebind input="js2_button16"/>
@@ -128,22 +139,21 @@
   <action name="v_toggle_landing_system">
    <rebind input="js2_button13"/>
   </action>
-  <action name="v_toggle_qdrive_engagement">
-   <rebind input="js2_button12"/>
-  </action>
-  <action name="v_toggle_qdrive_spooling">
-   <rebind input="js2_button12"/>
-  </action>
   <action name="v_toggle_vtol">
    <rebind input="js2_button8"/>
   </action>
  </actionmap>
+ <actionmap name="spaceship_quantum">
+  <action name="v_toggle_qdrive_engagement">
+   <rebind input="js2_button12"/>
+  </action>
+ </actionmap>
  <actionmap name="spaceship_docking">
   <action name="v_invoke_docking">
-   <rebind input="js2_button12" activationMode="delayed_hold_no_retrigger"/>
+   <rebind input="js2_button32" activationMode="delayed_hold_no_retrigger"/>
   </action>
   <action name="v_toggle_docking_mode">
-   <rebind input="js2_button12"/>
+   <rebind input="js2_button32"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
@@ -198,15 +208,7 @@
    <rebind input="js1_button14"/>
   </action>
  </actionmap>
- <actionmap name="spaceship_scanning">
-  <action name="v_scanning_trigger_scan">
-   <rebind input="js1_button1"/>
-  </action>
-  <action name="v_toggle_scan_mode">
-   <rebind input="js2_button10"/>
-  </action>
- </actionmap>
- <actionmap name="spaceship_ping">
+ <actionmap name="spaceship_radar">
   <action name="v_dec_ping_focus_angle">
    <rebind input="js2_button31"/>
   </action>
@@ -214,7 +216,15 @@
    <rebind input="js2_button30"/>
   </action>
   <action name="v_invoke_ping">
-   <rebind input="js1_button5"/>
+   <rebind input="js2_button1"/>
+  </action>
+ </actionmap>
+ <actionmap name="spaceship_scanning">
+  <action name="v_scanning_trigger_scan">
+   <rebind input="js1_button1"/>
+  </action>
+  <action name="v_toggle_fps_scan_mode">
+   <rebind input="js2_button10"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_mining">
@@ -230,9 +240,6 @@
   <action name="v_toggle_mining_laser_type">
    <rebind input="js1_button5"/>
   </action>
-  <action name="v_toggle_mining_mode">
-   <rebind input="js2_button11"/>
-  </action>
  </actionmap>
  <actionmap name="spaceship_weapons">
   <action name="v_attack1_group2">
@@ -243,17 +250,17 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_missiles">
-  <action name="v_weapon_arm_missile">
-   <rebind input="js1_button2"/>
+  <action name="v_weapon_cycle_missile_fwd">
+   <rebind input="js1_button5"/>
   </action>
-  <action name="v_weapon_cycle_missile_back">
+  <action name="v_weapon_decrease_max_missiles">
    <rebind input="js2_button7"/>
   </action>
-  <action name="v_weapon_cycle_missile_fwd">
+  <action name="v_weapon_increase_max_missiles">
    <rebind input="js2_button6"/>
   </action>
   <action name="v_weapon_launch_missile">
-   <rebind input="js1_button2" activationMode="delayed_hold_no_retrigger"/>
+   <rebind input="js1_ " activationMode="delayed_hold_no_retrigger"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_defensive">
@@ -279,19 +286,21 @@
    <rebind input="js1_button3"/>
   </action>
  </actionmap>
- <actionmap name="spaceship_power">
-  <action name="v_power_focus_shields">
-   <rebind input="js2_button25"/>
-  </action>
-  <action name="v_power_focus_thrusters">
+ <actionmap name="vehicle_capacitor_assignment">
+  <action name="v_capacitor_assignment_engine_combined_increase_max">
    <rebind input="js2_button26"/>
   </action>
-  <action name="v_power_focus_weapons">
-   <rebind input="js2_button27"/>
-  </action>
-  <action name="v_power_reset_focus">
+  <action name="v_capacitor_assignment_reset">
    <rebind input="js2_button24"/>
   </action>
+  <action name="v_capacitor_assignment_shield_combined_increase_max">
+   <rebind input="js2_button25"/>
+  </action>
+  <action name="v_capacitor_assignment_weapon_combined_increase_max">
+   <rebind input="js2_button27"/>
+  </action>
+ </actionmap>
+ <actionmap name="spaceship_power">
   <action name="v_power_throttle_max">
    <rebind input="js1_ " activationMode="press"/>
   </action>
@@ -299,22 +308,14 @@
    <rebind input="js1_ " activationMode="press"/>
   </action>
  </actionmap>
- <actionmap name="spaceship_radar">
-  <action name="v_radar_cycle_zoom_fwd">
-   <rebind input="js1_ "/>
-  </action>
- </actionmap>
  <actionmap name="lights_controller">
   <action name="v_lights">
-   <rebind input="js2_button1"/>
+   <rebind input="js2_ "/>
   </action>
  </actionmap>
  <actionmap name="vehicle_general">
   <action name="v_attack1_group2">
    <rebind input="js1_button5"/>
-  </action>
-  <action name="v_exit">
-   <rebind input="js2_button19"/>
   </action>
   <action name="v_view_zoom_in">
    <rebind input="js2_ "/>
