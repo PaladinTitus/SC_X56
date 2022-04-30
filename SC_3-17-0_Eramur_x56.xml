@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-15-1_Eramur_X56">
- <CustomisationUIHeader label="SC_3-15-1_Eramur_X56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-17-0_Eramur_x56">
+ <CustomisationUIHeader label="SC_3-17-0_Eramur_x56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -14,13 +14,14 @@
    <category label="@ui_CGInteraction"/>
   </categories>
  </CustomisationUIHeader>
- <options type="keyboard" instance="1" Product="Tastatur {6F1D2B61-D5A0-11CF-BFC7-444553540000}"/>
- <options type="joystick" instance="1" Product="Saitek Pro Flight X-56 Rhino Stick {22210738-0000-0000-0000-504944564944}">
+ <options type="keyboard" instance="1" Product="Tastatur  {6F1D2B61-D5A0-11CF-BFC7-444553540000}"/>
+ <options type="joystick" instance="1" Product="Saitek Pro Flight X-56 Rhino Stick  {22210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_longitudinal invert="1"/>
  </options>
- <options type="joystick" instance="2" Product="Saitek Pro Flight X-56 Rhino Throttle {A2210738-0000-0000-0000-504944564944}">
+ <options type="joystick" instance="2" Product="Saitek Pro Flight X-56 Rhino Throttle  {A2210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_vertical invert="1"/>
   <flight_move_strafe_forward invert="1"/>
+  <mining_throttle invert="0"/>
  </options>
  <modifiers />
  <actionmap name="seat_general">
@@ -62,7 +63,7 @@
  </actionmap>
  <actionmap name="spaceship_view">
   <action name="v_view_cycle_fwd">
-   <rebind input="js2_button2"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_view_zoom_in">
    <rebind input="js2_button30"/>
@@ -78,8 +79,11 @@
   <action name="v_afterburner">
    <rebind input="js2_button5"/>
   </action>
+  <action name="v_atc_request">
+   <rebind input="js2_button2"/>
+  </action>
   <action name="v_autoland">
-   <rebind input="js2_button13" activationMode="delayed_press"/>
+   <rebind input="js2_button13"/>
   </action>
   <action name="v_ifcs_toggle_cruise_control">
    <rebind input="js2_button29"/>
@@ -238,9 +242,6 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_weapons">
-  <action name="v_attack1_group2">
-   <rebind input="js1_button5"/>
-  </action>
   <action name="v_weapon_cycle_aimmode">
    <rebind input="js2_button9"/>
   </action>
@@ -310,9 +311,6 @@
   </action>
  </actionmap>
  <actionmap name="vehicle_general">
-  <action name="v_attack1_group2">
-   <rebind input="js1_button5"/>
-  </action>
   <action name="v_view_zoom_in">
    <rebind input="js2_ "/>
   </action>
