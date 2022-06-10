@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-17-0_Eramur_x56">
- <CustomisationUIHeader label="SC_3-17-0_Eramur_x56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-17-1_Eramur_x56">
+ <CustomisationUIHeader label="SC_3-17-1_Eramur_x56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -242,6 +242,9 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_weapons">
+  <action name="v_attack_group2">
+   <rebind input="js1_button5"/>
+  </action>
   <action name="v_weapon_cycle_aimmode">
    <rebind input="js2_button9"/>
   </action>
