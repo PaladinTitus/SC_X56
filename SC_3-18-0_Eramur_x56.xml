@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-17-1_Eramur_x56">
- <CustomisationUIHeader label="SC_3-17-1_Eramur_x56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-18-0_Eramur_x56">
+ <CustomisationUIHeader label="SC_3-18-0_Eramur_x56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -15,13 +15,12 @@
   </categories>
  </CustomisationUIHeader>
  <options type="keyboard" instance="1" Product="Tastatur  {6F1D2B61-D5A0-11CF-BFC7-444553540000}"/>
- <options type="joystick" instance="1" Product="Saitek Pro Flight X-56 Rhino Stick  {22210738-0000-0000-0000-504944564944}">
+ <options type="joystick" instance="1" Product="X56 H.O.T.A.S. Stick  {22210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_longitudinal invert="1"/>
  </options>
- <options type="joystick" instance="2" Product="Saitek Pro Flight X-56 Rhino Throttle  {A2210738-0000-0000-0000-504944564944}">
+ <options type="joystick" instance="2" Product="X56 H.O.T.A.S. Throttle  {A2210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_vertical invert="1"/>
   <flight_move_strafe_forward invert="1"/>
-  <mining_throttle invert="0"/>
  </options>
  <modifiers />
  <actionmap name="seat_general">
@@ -36,6 +35,9 @@
   </action>
   <action name="v_toggle_quantum_mode">
    <rebind input="js2_button12"/>
+  </action>
+  <action name="v_toggle_salvage_mode">
+   <rebind input="js2_button11"/>
   </action>
   <action name="v_toggle_scan_mode">
    <rebind input="js2_button10"/>
@@ -241,12 +243,26 @@
    <rebind input="js1_button5"/>
   </action>
  </actionmap>
+ <actionmap name="spaceship_salvage">
+  <action name="v_salvage_beam_spacing_abs">
+   <rebind input="js2_slider2"/>
+  </action>
+  <action name="v_salvage_cycle_modifiers_left">
+   <rebind input="js2_button6"/>
+  </action>
+  <action name="v_salvage_cycle_modifiers_right">
+   <rebind input="js2_button7"/>
+  </action>
+  <action name="v_salvage_toggle_beam_spacing_axis">
+   <rebind input="js1_button5"/>
+  </action>
+  <action name="v_salvage_toggle_gimbal_mode">
+   <rebind input="js2_button9"/>
+  </action>
+ </actionmap>
  <actionmap name="spaceship_weapons">
   <action name="v_attack_group2">
    <rebind input="js1_button5"/>
-  </action>
-  <action name="v_weapon_cycle_aimmode">
-   <rebind input="js2_button9"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_missiles">
