@@ -245,7 +245,7 @@
  </actionmap>
  <actionmap name="spaceship_salvage">
   <action name="v_salvage_beam_spacing_abs">
-   <rebind input="js2_slider2"/>
+   <rebind input="js2_slider1"/>
   </action>
   <action name="v_salvage_cycle_modifiers_left">
    <rebind input="js2_button6"/>
