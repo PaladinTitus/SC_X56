@@ -21,6 +21,7 @@
  <options type="joystick" instance="2" Product="X56 H.O.T.A.S. Throttle  {A2210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_vertical invert="1"/>
   <flight_move_strafe_forward invert="1"/>
+  <mining_throttle invert="0"/>
  </options>
  <modifiers />
  <actionmap name="seat_general">
