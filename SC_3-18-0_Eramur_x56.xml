@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-18-0_Eramur_x56">
- <CustomisationUIHeader label="SC_3-18-0_Eramur_x56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="PTU">
+ <CustomisationUIHeader label="PTU" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -16,12 +16,11 @@
  </CustomisationUIHeader>
  <options type="keyboard" instance="1" Product="Tastatur  {6F1D2B61-D5A0-11CF-BFC7-444553540000}"/>
  <options type="joystick" instance="1" Product="X56 H.O.T.A.S. Stick  {22210738-0000-0000-0000-504944564944}">
-  <flight_move_strafe_longitudinal invert="1"/>
+  <flight_strafe_longitudinal_abs invert="1"/>
  </options>
  <options type="joystick" instance="2" Product="X56 H.O.T.A.S. Throttle  {A2210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_vertical invert="1"/>
-  <flight_move_strafe_forward invert="1"/>
-  <mining_throttle invert="0"/>
+  <flight_strafe_forward_abs invert="1"/>
  </options>
  <modifiers />
  <actionmap name="seat_general">
@@ -112,13 +111,10 @@
   <action name="v_speed_range_rel">
    <rebind input="js2_ "/>
   </action>
-  <action name="v_strafe_back">
-   <rebind input="js1_ "/>
-  </action>
   <action name="v_strafe_down">
    <rebind input="js1_ "/>
   </action>
-  <action name="v_strafe_forward">
+  <action name="v_strafe_forward_abs">
    <rebind input="js2_y"/>
   </action>
   <action name="v_strafe_lateral">
@@ -127,7 +123,7 @@
   <action name="v_strafe_left">
    <rebind input="js1_ "/>
   </action>
-  <action name="v_strafe_longitudinal">
+  <action name="v_strafe_longitudinal_abs">
    <rebind input="js1_roty"/>
   </action>
   <action name="v_strafe_right">
