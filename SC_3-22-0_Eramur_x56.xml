@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-20-0_Eramur_x56">
- <CustomisationUIHeader label="SC_3-20-0_Eramur_x56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-22-0_Eramur_x56">
+ <CustomisationUIHeader label="SC_3-22-0_Eramur_x56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -21,6 +21,7 @@
  <options type="joystick" instance="2" Product="X56 H.O.T.A.S. Throttle  {A2210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_vertical invert="1"/>
   <flight_strafe_forward_abs invert="1"/>
+  <mgv_move_forward invert="1"/>
  </options>
  <modifiers />
  <actionmap name="seat_general">
@@ -211,12 +212,6 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_radar">
-  <action name="v_dec_ping_focus_angle">
-   <rebind input="js2_button31"/>
-  </action>
-  <action name="v_inc_ping_focus_angle">
-   <rebind input="js2_button30"/>
-  </action>
   <action name="v_invoke_ping">
    <rebind input="js2_button1"/>
   </action>
@@ -241,8 +236,17 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_salvage">
+  <action name="tractor_beam_vehicle_decrease_distance">
+   <rebind input="js2_button31"/>
+  </action>
+  <action name="tractor_beam_vehicle_increase_distance">
+   <rebind input="js2_button30"/>
+  </action>
   <action name="v_salvage_beam_spacing_abs">
-   <rebind input="js2_slider1"/>
+   <rebind input="js2_slider2"/>
+  </action>
+  <action name="v_salvage_cycle_modifiers_focused">
+   <rebind input="js1_button5"/>
   </action>
   <action name="v_salvage_cycle_modifiers_left">
    <rebind input="js2_button6"/>
@@ -250,8 +254,23 @@
   <action name="v_salvage_cycle_modifiers_right">
    <rebind input="js2_button7"/>
   </action>
+  <action name="v_salvage_focus_all_heads">
+   <rebind input="js2_button22"/>
+  </action>
+  <action name="v_salvage_focus_disintegrate">
+   <rebind input="js2_button3"/>
+  </action>
+  <action name="v_salvage_focus_fracture">
+   <rebind input="js2_button20"/>
+  </action>
+  <action name="v_salvage_focus_left">
+   <rebind input="js2_button23"/>
+  </action>
+  <action name="v_salvage_focus_right">
+   <rebind input="js2_button21"/>
+  </action>
   <action name="v_salvage_toggle_beam_spacing_axis">
-   <rebind input="js1_button5"/>
+   <rebind input="js1_button2"/>
   </action>
   <action name="v_salvage_toggle_gimbal_mode">
    <rebind input="js2_button9"/>
