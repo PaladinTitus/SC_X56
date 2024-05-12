@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-22-0_Eramur_x56">
- <CustomisationUIHeader label="SC_3-22-0_Eramur_x56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-23-0_Eramur_x56">
+ <CustomisationUIHeader label="SC_3-23-0_Eramur_x56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -15,33 +15,39 @@
   </categories>
  </CustomisationUIHeader>
  <options type="keyboard" instance="1" Product="Tastatur  {6F1D2B61-D5A0-11CF-BFC7-444553540000}"/>
- <options type="joystick" instance="1" Product="X56 H.O.T.A.S. Stick  {22210738-0000-0000-0000-504944564944}">
-  <flight_strafe_longitudinal_abs invert="1"/>
+ <options type="joystick" instance="1" Product="Saitek Pro Flight X-56 Rhino Stick  {22210738-0000-0000-0000-504944564944}">
+  <flight_strafe_longitudinal invert="1"/>
  </options>
- <options type="joystick" instance="2" Product="X56 H.O.T.A.S. Throttle  {A2210738-0000-0000-0000-504944564944}">
+ <options type="joystick" instance="2" Product="Saitek Pro Flight X-56 Rhino Throttle  {A2210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_vertical invert="1"/>
-  <flight_strafe_forward_abs invert="1"/>
-  <mgv_move_forward invert="1"/>
+  <flight_strafe_forward invert="1"/>
+  <mining_throttle invert="0"/>
  </options>
  <modifiers />
  <actionmap name="seat_general">
   <action name="v_eject">
-   <rebind input="js2_button18"/>
+   <rebind input="js2_ "/>
+  </action>
+  <action name="v_operator_mode_cycle_back">
+   <rebind input="js2_button11"/>
+  </action>
+  <action name="v_operator_mode_cycle_forward">
+   <rebind input="js2_button10"/>
   </action>
   <action name="v_toggle_mining_mode">
-   <rebind input="js2_button11"/>
-  </action>
-  <action name="v_toggle_missile_mode">
-   <rebind input="js1_button2"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_toggle_quantum_mode">
-   <rebind input="js2_button12"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_toggle_salvage_mode">
-   <rebind input="js2_button11"/>
+   <rebind input="js2_ "/>
   </action>
   <action name="v_toggle_scan_mode">
-   <rebind input="js2_button10"/>
+   <rebind input="js2_ "/>
+  </action>
+  <action name="v_view_look_behind">
+   <rebind input="js2_button28"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_general">
@@ -49,7 +55,7 @@
    <rebind input="js2_button14" activationMode="delayed_hold_no_retrigger"/>
   </action>
   <action name="v_flightready">
-   <rebind input="js2_button16"/>
+   <rebind input="js2_button18"/>
   </action>
   <action name="v_lock_all_doors">
    <rebind input="js2_button15" activationMode="tap"/>
@@ -58,7 +64,7 @@
    <rebind input="js2_button14" activationMode="tap"/>
   </action>
   <action name="v_self_destruct">
-   <rebind input="js2_button18" activationMode="delayed_press"/>
+   <rebind input="js2_ " activationMode="delayed_press"/>
   </action>
   <action name="v_unlock_all_doors">
    <rebind input="js2_button15" activationMode="delayed_hold_no_retrigger"/>
@@ -85,11 +91,11 @@
   <action name="v_atc_request">
    <rebind input="js2_button2"/>
   </action>
-  <action name="v_autoland">
-   <rebind input="js2_button13"/>
+  <action name="v_auto_precision_mode_toggle">
+   <rebind input="js2_button17"/>
   </action>
-  <action name="v_ifcs_toggle_cruise_control">
-   <rebind input="js2_button29"/>
+  <action name="v_autoland">
+   <rebind input="js2_ " activationMode="delayed_hold_no_retrigger"/>
   </action>
   <action name="v_ifcs_toggle_esp">
    <rebind input="js2_ "/>
@@ -97,11 +103,17 @@
   <action name="v_ifcs_toggle_gforce_safety">
    <rebind input="js2_ "/>
   </action>
+  <action name="v_ifcs_toggle_gravity_compensation">
+   <rebind input="js2_button16"/>
+  </action>
   <action name="v_ifcs_toggle_speed_limiter">
-   <rebind input="js2_button28"/>
+   <rebind input="js2_button9"/>
   </action>
   <action name="v_ifcs_toggle_vector_decoupling">
-   <rebind input="js2_button17"/>
+   <rebind input="js2_button33"/>
+  </action>
+  <action name="v_master_mode_cycle">
+   <rebind input="js2_button8"/>
   </action>
   <action name="v_space_brake">
    <rebind input="js2_button4"/>
@@ -115,7 +127,7 @@
   <action name="v_strafe_down">
    <rebind input="js1_ "/>
   </action>
-  <action name="v_strafe_forward_abs">
+  <action name="v_strafe_forward">
    <rebind input="js2_y"/>
   </action>
   <action name="v_strafe_lateral">
@@ -124,7 +136,7 @@
   <action name="v_strafe_left">
    <rebind input="js1_ "/>
   </action>
-  <action name="v_strafe_longitudinal_abs">
+  <action name="v_strafe_longitudinal">
    <rebind input="js1_roty"/>
   </action>
   <action name="v_strafe_right">
@@ -140,15 +152,10 @@
    <rebind input="js2_ "/>
   </action>
   <action name="v_toggle_landing_system">
-   <rebind input="js2_button13"/>
+   <rebind input="js2_button6"/>
   </action>
   <action name="v_toggle_vtol">
-   <rebind input="js2_button8"/>
-  </action>
- </actionmap>
- <actionmap name="spaceship_quantum">
-  <action name="v_toggle_qdrive_engagement">
-   <rebind input="js2_button12"/>
+   <rebind input="js2_button7"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_docking">
@@ -160,6 +167,9 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
+  <action name="v_auto_targeting_toggle_long">
+   <rebind input="js1_button2"/>
+  </action>
   <action name="v_target_remove_all_pins">
    <rebind input="js1_button9"/>
   </action>
@@ -181,34 +191,46 @@
   <action name="v_target_toggle_pin_index_3_hold">
    <rebind input="js1_button8"/>
   </action>
-  <action name="v_target_unlock_selected">
-   <rebind input="js1_button9" activationMode="delayed_hold_no_retrigger"/>
-  </action>
  </actionmap>
  <actionmap name="spaceship_targeting_advanced">
   <action name="v_target_cycle_all_fwd">
-   <rebind input="js1_hat1_right"/>
-  </action>
-  <action name="v_target_cycle_all_reset">
-   <rebind input="js1_hat1_left"/>
-  </action>
-  <action name="v_target_cycle_attacker_fwd">
-   <rebind input="js1_hat1_up"/>
-  </action>
-  <action name="v_target_cycle_attacker_reset">
    <rebind input="js1_hat1_down"/>
   </action>
+  <action name="v_target_cycle_all_reset">
+   <rebind input="js1_hat1_down"/>
+  </action>
+  <action name="v_target_cycle_attacker_fwd">
+   <rebind input="js1_hat1_left"/>
+  </action>
+  <action name="v_target_cycle_attacker_reset">
+   <rebind input="js1_hat1_left"/>
+  </action>
+  <action name="v_target_cycle_friendly_fwd">
+   <rebind input="js1_hat1_right"/>
+  </action>
+  <action name="v_target_cycle_friendly_reset">
+   <rebind input="js1_hat1_right"/>
+  </action>
   <action name="v_target_cycle_hostile_fwd">
-   <rebind input="js1_button11"/>
+   <rebind input="js1_hat1_up"/>
   </action>
   <action name="v_target_cycle_hostile_reset">
-   <rebind input="js1_button13"/>
+   <rebind input="js1_hat1_up"/>
   </action>
   <action name="v_target_cycle_in_view_fwd">
-   <rebind input="js1_button12"/>
+   <rebind input="js1_button2"/>
   </action>
   <action name="v_target_cycle_in_view_reset">
+   <rebind input="js1_button2"/>
+  </action>
+  <action name="v_target_cycle_subitem_back">
    <rebind input="js1_button14"/>
+  </action>
+  <action name="v_target_cycle_subitem_fwd">
+   <rebind input="js1_button12"/>
+  </action>
+  <action name="v_target_cycle_subitem_reset">
+   <rebind input="js1_button13"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_radar">
@@ -245,14 +267,11 @@
   <action name="v_salvage_beam_spacing_abs">
    <rebind input="js2_slider2"/>
   </action>
-  <action name="v_salvage_cycle_modifiers_focused">
-   <rebind input="js1_button5"/>
-  </action>
   <action name="v_salvage_cycle_modifiers_left">
-   <rebind input="js2_button6"/>
+   <rebind input="js2_button12"/>
   </action>
   <action name="v_salvage_cycle_modifiers_right">
-   <rebind input="js2_button7"/>
+   <rebind input="js2_button13"/>
   </action>
   <action name="v_salvage_focus_all_heads">
    <rebind input="js2_button22"/>
@@ -270,7 +289,7 @@
    <rebind input="js2_button21"/>
   </action>
   <action name="v_salvage_toggle_beam_spacing_axis">
-   <rebind input="js1_button2"/>
+   <rebind input="js1_button5"/>
   </action>
   <action name="v_salvage_toggle_gimbal_mode">
    <rebind input="js2_button9"/>
@@ -280,16 +299,28 @@
   <action name="v_attack_group2">
    <rebind input="js1_button5"/>
   </action>
+  <action name="v_weapon_ads_cycle_tracking">
+   <rebind input="js1_button11"/>
+  </action>
+  <action name="v_weapon_ads_stable_max_zoom_hold">
+   <rebind input="js1_button11"/>
+  </action>
+  <action name="v_weapon_ads_toggle">
+   <rebind input="js1_button11"/>
+  </action>
+  <action name="v_weapon_gimbal_mode_cycle_all">
+   <rebind input="js2_button29"/>
+  </action>
  </actionmap>
  <actionmap name="spaceship_missiles">
   <action name="v_weapon_cycle_missile_fwd">
    <rebind input="js1_button5"/>
   </action>
   <action name="v_weapon_decrease_max_missiles">
-   <rebind input="js2_button7"/>
+   <rebind input="js2_button13"/>
   </action>
   <action name="v_weapon_increase_max_missiles">
-   <rebind input="js2_button6"/>
+   <rebind input="js2_button12"/>
   </action>
   <action name="v_weapon_launch_missile">
    <rebind input="js1_ " activationMode="delayed_hold_no_retrigger"/>
