@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-23-0_Eramur_x56">
- <CustomisationUIHeader label="SC_3-23-0_Eramur_x56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-23-1_Eramur_x56">
+ <CustomisationUIHeader label="SC_3-23-1_Eramur_x56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -21,7 +21,7 @@
  <options type="joystick" instance="2" Product="Saitek Pro Flight X-56 Rhino Throttle  {A2210738-0000-0000-0000-504944564944}">
   <flight_move_strafe_vertical invert="1"/>
   <flight_strafe_forward invert="1"/>
-  <mining_throttle invert="0"/>
+  <mgv_move_forward invert="1"/>
  </options>
  <modifiers />
  <actionmap name="seat_general">
