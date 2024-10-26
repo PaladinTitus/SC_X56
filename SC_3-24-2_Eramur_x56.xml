@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-23-1_Eramur_x56">
- <CustomisationUIHeader label="SC_3-23-1_Eramur_x56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-24-2_Eramur_x56">
+ <CustomisationUIHeader label="SC_3-24-2_Eramur_x56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -22,6 +22,7 @@
   <flight_move_strafe_vertical invert="1"/>
   <flight_strafe_forward invert="1"/>
   <mgv_move_forward invert="1"/>
+  <mining_throttle invert="0"/>
  </options>
  <modifiers />
  <actionmap name="seat_general">
@@ -296,20 +297,17 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_weapons">
-  <action name="v_attack_group2">
-   <rebind input="js1_button5"/>
-  </action>
-  <action name="v_weapon_ads_cycle_tracking">
-   <rebind input="js1_button11"/>
-  </action>
-  <action name="v_weapon_ads_stable_max_zoom_hold">
-   <rebind input="js1_button11"/>
-  </action>
-  <action name="v_weapon_ads_toggle">
-   <rebind input="js1_button11"/>
-  </action>
   <action name="v_weapon_gimbal_mode_cycle_all">
    <rebind input="js2_button29"/>
+  </action>
+  <action name="v_weapon_preset_next">
+   <rebind input="js1_ "/>
+  </action>
+  <action name="v_weapon_preset_next_overflow">
+   <rebind input="js1_button5"/>
+  </action>
+  <action name="v_weapon_preset_prev">
+   <rebind input="js1_ "/>
   </action>
  </actionmap>
  <actionmap name="spaceship_missiles">
@@ -347,20 +345,6 @@
   </action>
   <action name="v_weapon_countermeasure_noise_launch">
    <rebind input="js1_button3"/>
-  </action>
- </actionmap>
- <actionmap name="vehicle_capacitor_assignment">
-  <action name="v_capacitor_assignment_engine_combined_increase_max">
-   <rebind input="js2_button26"/>
-  </action>
-  <action name="v_capacitor_assignment_reset">
-   <rebind input="js2_button24"/>
-  </action>
-  <action name="v_capacitor_assignment_shield_combined_increase_max">
-   <rebind input="js2_button25"/>
-  </action>
-  <action name="v_capacitor_assignment_weapon_combined_increase_max">
-   <rebind input="js2_button27"/>
   </action>
  </actionmap>
  <actionmap name="spaceship_power">
