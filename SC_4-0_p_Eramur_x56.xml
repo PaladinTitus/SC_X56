@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_3-24-2_Eramur_x56">
- <CustomisationUIHeader label="SC_3-24-2_Eramur_x56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_4-0_p_Eramur_x56">
+ <CustomisationUIHeader label="SC_4-0_p_Eramur_x56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -98,6 +98,12 @@
   <action name="v_autoland">
    <rebind input="js2_ " activationMode="delayed_hold_no_retrigger"/>
   </action>
+  <action name="v_ifcs_limiter_toggle">
+   <rebind input="js2_button9"/>
+  </action>
+  <action name="v_ifcs_speed_limiter_abs">
+   <rebind input="js2_z"/>
+  </action>
   <action name="v_ifcs_toggle_esp">
    <rebind input="js2_ "/>
   </action>
@@ -107,9 +113,6 @@
   <action name="v_ifcs_toggle_gravity_compensation">
    <rebind input="js2_button16"/>
   </action>
-  <action name="v_ifcs_toggle_speed_limiter">
-   <rebind input="js2_button9"/>
-  </action>
   <action name="v_ifcs_toggle_vector_decoupling">
    <rebind input="js2_button33"/>
   </action>
@@ -118,12 +121,6 @@
   </action>
   <action name="v_space_brake">
    <rebind input="js2_button4"/>
-  </action>
-  <action name="v_speed_range_abs">
-   <rebind input="js2_z"/>
-  </action>
-  <action name="v_speed_range_rel">
-   <rebind input="js2_ "/>
   </action>
   <action name="v_strafe_down">
    <rebind input="js1_ "/>
@@ -148,9 +145,6 @@
   </action>
   <action name="v_strafe_vertical">
    <rebind input="js2_roty"/>
-  </action>
-  <action name="v_target_match_vel">
-   <rebind input="js2_ "/>
   </action>
   <action name="v_toggle_landing_system">
    <rebind input="js2_button6"/>
