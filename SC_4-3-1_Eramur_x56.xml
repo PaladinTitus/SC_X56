@@ -1,5 +1,5 @@
-<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_4-0_p_Eramur_x56">
- <CustomisationUIHeader label="SC_4-0_p_Eramur_x56" description="" image="">
+<ActionMaps version="1" optionsVersion="2" rebindVersion="2" profileName="SC_4-3-1_Eramur_x56">
+ <CustomisationUIHeader label="SC_4-3-1_Eramur_x56" description="" image="">
   <devices>
    <keyboard instance="1"/>
    <mouse instance="1"/>
@@ -37,6 +37,9 @@
   </action>
   <action name="v_toggle_mining_mode">
    <rebind input="js2_ "/>
+  </action>
+  <action name="v_toggle_missile_mode">
+   <rebind input="js1_button2"/>
   </action>
   <action name="v_toggle_quantum_mode">
    <rebind input="js2_ "/>
@@ -98,9 +101,6 @@
   <action name="v_autoland">
    <rebind input="js2_ " activationMode="delayed_hold_no_retrigger"/>
   </action>
-  <action name="v_ifcs_limiter_toggle">
-   <rebind input="js2_button9"/>
-  </action>
   <action name="v_ifcs_speed_limiter_abs">
    <rebind input="js2_z"/>
   </action>
@@ -112,9 +112,6 @@
   </action>
   <action name="v_ifcs_toggle_gravity_compensation">
    <rebind input="js2_button16"/>
-  </action>
-  <action name="v_ifcs_toggle_vector_decoupling">
-   <rebind input="js2_button33"/>
   </action>
   <action name="v_master_mode_cycle">
    <rebind input="js2_button8"/>
@@ -149,7 +146,7 @@
   <action name="v_toggle_landing_system">
    <rebind input="js2_button6"/>
   </action>
-  <action name="v_toggle_vtol">
+  <action name="v_vtol_toggle">
    <rebind input="js2_button7"/>
   </action>
  </actionmap>
@@ -162,9 +159,6 @@
   </action>
  </actionmap>
  <actionmap name="spaceship_targeting">
-  <action name="v_auto_targeting_toggle_long">
-   <rebind input="js1_button2"/>
-  </action>
   <action name="v_target_remove_all_pins">
    <rebind input="js1_button9"/>
   </action>
@@ -186,37 +180,34 @@
   <action name="v_target_toggle_pin_index_3_hold">
    <rebind input="js1_button8"/>
   </action>
+  <action name="v_target_unlock">
+   <rebind input="js1_button9"/>
+  </action>
  </actionmap>
  <actionmap name="spaceship_targeting_advanced">
   <action name="v_target_cycle_all_fwd">
-   <rebind input="js1_hat1_down"/>
+   <rebind input="js1_hat1_up"/>
   </action>
   <action name="v_target_cycle_all_reset">
-   <rebind input="js1_hat1_down"/>
+   <rebind input="js1_hat1_up" activationMode="delayed_hold_no_retrigger"/>
   </action>
   <action name="v_target_cycle_attacker_fwd">
-   <rebind input="js1_hat1_left"/>
+   <rebind input="js1_hat1_down"/>
   </action>
   <action name="v_target_cycle_attacker_reset">
-   <rebind input="js1_hat1_left"/>
+   <rebind input="js1_hat1_down" activationMode="delayed_hold_no_retrigger"/>
   </action>
   <action name="v_target_cycle_friendly_fwd">
-   <rebind input="js1_hat1_right"/>
+   <rebind input="js1_hat1_left"/>
   </action>
   <action name="v_target_cycle_friendly_reset">
-   <rebind input="js1_hat1_right"/>
+   <rebind input="js1_hat1_left" activationMode="delayed_hold_no_retrigger"/>
   </action>
   <action name="v_target_cycle_hostile_fwd">
-   <rebind input="js1_hat1_up"/>
+   <rebind input="js1_hat1_right"/>
   </action>
   <action name="v_target_cycle_hostile_reset">
-   <rebind input="js1_hat1_up"/>
-  </action>
-  <action name="v_target_cycle_in_view_fwd">
-   <rebind input="js1_button2"/>
-  </action>
-  <action name="v_target_cycle_in_view_reset">
-   <rebind input="js1_button2"/>
+   <rebind input="js1_hat1_right" activationMode="delayed_hold_no_retrigger"/>
   </action>
   <action name="v_target_cycle_subitem_back">
    <rebind input="js1_button14"/>
@@ -294,11 +285,17 @@
   <action name="v_weapon_gimbal_mode_cycle_all">
    <rebind input="js2_button29"/>
   </action>
-  <action name="v_weapon_preset_next">
+  <action name="v_weapon_preset_attack">
    <rebind input="js1_ "/>
   </action>
-  <action name="v_weapon_preset_next_overflow">
+  <action name="v_weapon_preset_fire_guns1">
+   <rebind input="js1_button1"/>
+  </action>
+  <action name="v_weapon_preset_fire_guns2">
    <rebind input="js1_button5"/>
+  </action>
+  <action name="v_weapon_preset_next">
+   <rebind input="js1_ "/>
   </action>
   <action name="v_weapon_preset_prev">
    <rebind input="js1_ "/>
